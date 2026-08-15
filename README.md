@@ -16,9 +16,6 @@
 ## What remains (not yet reversed)
 
 The instruction **operands** are still the obfuscated (pre-mutation) values.
-Three layers obscure them, and reversing each requires more than the static
-opcode map:
-
 1. **Polymorphic wrappers**
 2. **Static `Mutate` offsets**
 3. **Operand shuffling**
