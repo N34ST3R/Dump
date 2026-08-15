@@ -1,0 +1,1492 @@
+{
+ "OpAdd": {
+  "opcodes": [
+   "Add"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]+Stk[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpAddB": {
+  "opcodes": [
+   "Add"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]+Stk[Inst[OP_C]];",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpAddC": {
+  "opcodes": [
+   "Add"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]+Const[Inst[OP_C]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpAddBC": {
+  "opcodes": [
+   "Add"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]+Const[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpBAND": {
+  "opcodes": [
+   "BAND"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitBAND(Stk[Inst[OP_B]],Stk[Inst[OP_C]]);\\n",
+  "mutate": []
+ },
+ "OpBANDB": {
+  "opcodes": [
+   "BAND"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitBAND(Const[Inst[OP_B]],Stk[Inst[OP_C]]);\\n",
+  "mutate": []
+ },
+ "OpBANDC": {
+  "opcodes": [
+   "BAND"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitBAND(Stk[Inst[OP_B]],Const[Inst[OP_C]]);\\n",
+  "mutate": []
+ },
+ "OpBANDD": {
+  "opcodes": [
+   "BAND"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitBAND(Const[Inst[OP_B]],Const[Inst[OP_C]]);\\n",
+  "mutate": []
+ },
+ "OpBLSHFT": {
+  "opcodes": [
+   "BLSHFT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitLSHIFT(Stk[Inst[OP_B]],Stk[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBLSHFTB": {
+  "opcodes": [
+   "BLSHFT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitLSHIFT(Const[Inst[OP_B]],Stk[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBLSHFTC": {
+  "opcodes": [
+   "BLSHFT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitLSHIFT(Stk[Inst[OP_B]],Const[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBLSHFTD": {
+  "opcodes": [
+   "BLSHFT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitLSHIFT(Const[Inst[OP_B]],Const[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBNOT": {
+  "opcodes": [
+   "BNOT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitNOT(Stk[Inst[OP_B]]);\\n",
+  "mutate": []
+ },
+ "OpBOR": {
+  "opcodes": [
+   "BOR"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitBOR(Stk[Inst[OP_B]],Stk[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBORB": {
+  "opcodes": [
+   "BOR"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitBOR(Const[Inst[OP_B]],Stk[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBORC": {
+  "opcodes": [
+   "BOR"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitBOR(Stk[Inst[OP_B]],Const[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBORD": {
+  "opcodes": [
+   "BOR"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitBOR(Const[Inst[OP_B]],Const[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBRSHFT": {
+  "opcodes": [
+   "BRSHFT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitRSHIFT(Stk[Inst[OP_B]],Stk[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBRSHFTB": {
+  "opcodes": [
+   "BRSHFT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitRSHIFT(Const[Inst[OP_B]],Stk[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBRSHFTC": {
+  "opcodes": [
+   "BRSHFT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitRSHIFT(Stk[Inst[OP_B]],Const[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBRSHFTD": {
+  "opcodes": [
+   "BRSHFT"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitRSHIFT(Const[Inst[OP_B]],Const[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBXOR": {
+  "opcodes": [
+   "BXOR"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitXOR(Stk[Inst[OP_B]],Stk[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBXORB": {
+  "opcodes": [
+   "BXOR"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitXOR(Const[Inst[OP_B]],Stk[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBXORC": {
+  "opcodes": [
+   "BXOR"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitXOR(Stk[Inst[OP_B]],Const[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpBXORD": {
+  "opcodes": [
+   "BXOR"
+  ],
+  "override": "Stk[Inst[OP_A]]=BitXOR(Const[Inst[OP_B]],Const[Inst[OP_C]]);",
+  "mutate": []
+ },
+ "OpCall": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB2": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB0": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB1": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallC0": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallC0B2": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallC1": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallC1B2": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB0C0": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB0C1": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB1C0": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB1C1": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": "Stk[Inst[OP_A]]();",
+  "mutate": []
+ },
+ "OpCallC2": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallC2B2": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB0C2": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallB1C2": {
+  "opcodes": [
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpCallSpec": {
+  "opcodes": [
+   "CallSpec"
+  ],
+  "override": "Stk[Inst[OP_C]] = Stk[Inst[OP_A]](Stk[Inst[OP_B]]);",
+  "mutate": []
+ },
+ "OpClose": {
+  "opcodes": [
+   "Close"
+  ],
+  "override": "local A=Inst[OP_A];local Cls={};for Idx=1,#Lupvals do local List=Lupvals[Idx];for Idz=0,#List do local Upv=List[Idz];local NStk=Upv[1];local Pos=Upv[2]; if NStk==Stk and Pos>=A then Cls[Pos]=NStk[Pos];Upv[1]=Cls;end;end;end;",
+  "mutate": []
+ },
+ "OpClosure": {
+  "opcodes": [],
+  "override": null,
+  "mutate": []
+ },
+ "OpClosureNU": {
+  "opcodes": [
+   "Closure"
+  ],
+  "override": "Stk[Inst[OP_A]]=Wrap(Proto[Inst[OP_B]],nil);",
+  "mutate": []
+ },
+ "OpConcatMulti": {
+  "opcodes": [
+   "Concat"
+  ],
+  "override": "local B=Inst[OP_B];local K=Stk[B] for Idx=B+1,Inst[OP_C] do K=K..Stk[Idx];end;Stk[Inst[OP_A]]=K;",
+  "mutate": []
+ },
+ "OpConcatSingle": {
+  "opcodes": [
+   "Concat"
+  ],
+  "override": "local B=Inst[OP_B];Stk[Inst[OP_A]] = Stk[B] .. Stk[B+1];",
+  "mutate": []
+ },
+ "OpCopyTable": {
+  "opcodes": [
+   "CopyTable"
+  ],
+  "override": "local t = Stk[Inst[OP_B]] for i,v in Next,Stk[Inst[OP_A]] do t[#t+1] = v end;",
+  "mutate": []
+ },
+ "OpDiv": {
+  "opcodes": [
+   "Div"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]/Stk[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpDivB": {
+  "opcodes": [
+   "Div"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]/Stk[Inst[OP_C]];",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpDivC": {
+  "opcodes": [
+   "Div"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]/Const[Inst[OP_C]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpDivBC": {
+  "opcodes": [
+   "Div"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]/Const[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpDynamicCallB2C2": {
+  "opcodes": [
+   "Dynamic",
+   "Call"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpDynamic": {
+  "opcodes": [
+   "Dynamic"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpEq": {
+  "opcodes": [
+   "Eq"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpEqB": {
+  "opcodes": [
+   "Eq"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpEqC": {
+  "opcodes": [
+   "Eq"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpEqBC": {
+  "opcodes": [
+   "Eq"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpForLoop": {
+  "opcodes": [
+   "ForLoop"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpForPrep": {
+  "opcodes": [
+   "ForPrep"
+  ],
+  "override": "local A=Inst[OP_A];Stk[A]=(Stk[A] or 0)-(Stk[A+2] or 0);InstrPoint=Inst[OP_B];",
+  "mutate": []
+ },
+ "OpFuncDecl1": {
+  "opcodes": [
+   "FuncDecl1"
+  ],
+  "override": "local CurrentInst = Inst Stk[Inst[OP_A]]=function() return CurrentInst[OP_A] end;",
+  "mutate": []
+ },
+ "OpFuncDecl2": {
+  "opcodes": [
+   "FuncDecl2"
+  ],
+  "override": "local CurrentInst = Inst Stk[Inst[OP_A]]=function() return CurrentInst[OP_A] end;",
+  "mutate": []
+ },
+ "OpFuncDecl3": {
+  "opcodes": [
+   "FuncDecl3"
+  ],
+  "override": "local CurrentInst = Inst Stk[Inst[OP_A]]=function() return CurrentInst[OP_A] end;",
+  "mutate": []
+ },
+ "OpGe": {
+  "opcodes": [
+   "Lt"
+  ],
+  "override": "if(Stk[Inst[OP_A]]>=Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpGeB": {
+  "opcodes": [
+   "Lt"
+  ],
+  "override": "if(Const[Inst[OP_A]]>=Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpGeC": {
+  "opcodes": [
+   "Lt"
+  ],
+  "override": "if(Stk[Inst[OP_A]]>=Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpGeBC": {
+  "opcodes": [
+   "Lt"
+  ],
+  "override": "if(Const[Inst[OP_A]]>=Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpGetGlobal": {
+  "opcodes": [
+   "GetGlobal"
+  ],
+  "override": "Stk[Inst[OP_A]]=Env[Const[Inst[OP_B]]];",
+  "mutate": [
+   [
+    "B",
+    "++",
+    null
+   ]
+  ]
+ },
+ "OpGetInstruction": {
+  "opcodes": [
+   "GetInstruction"
+  ],
+  "override": "Stk[Inst[OP_A]]=Instr[InstrPoint + Inst[OP_B]];",
+  "mutate": []
+ },
+ "OpGetTable": {
+  "opcodes": [
+   "GetTable"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]][Stk[Inst[OP_C]]];",
+  "mutate": []
+ },
+ "OpGetTableConst": {
+  "opcodes": [
+   "GetTable"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]][Const[Inst[OP_C]]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpGetTableN": {
+  "opcodes": [
+   "GetTableN"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]][Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpGetUpval": {
+  "opcodes": [
+   "GetUpval"
+  ],
+  "override": "local UV = Upvalues[Inst[OP_B]];Stk[Inst[OP_A]]=UV[1][UV[2]];",
+  "mutate": []
+ },
+ "OpGt": {
+  "opcodes": [
+   "Le"
+  ],
+  "override": "if(Stk[Inst[OP_A]]>Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpGtB": {
+  "opcodes": [
+   "Le"
+  ],
+  "override": "if(Const[Inst[OP_A]]>Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpGtC": {
+  "opcodes": [
+   "Le"
+  ],
+  "override": "if(Stk[Inst[OP_A]]>Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpGtBC": {
+  "opcodes": [
+   "Le"
+  ],
+  "override": "if(Const[Inst[OP_A]]>Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpINTDIV": {
+  "opcodes": [
+   "INTDIV"
+  ],
+  "override": "Stk[Inst[OP_A]]=__INTDIV__(Stk[Inst[OP_B]],Stk[Inst[OP_C]]);\\n",
+  "mutate": []
+ },
+ "OpINTDIVB": {
+  "opcodes": [
+   "INTDIV"
+  ],
+  "override": "Stk[Inst[OP_A]]=__INTDIV__(Const[Inst[OP_B]],Stk[Inst[OP_C]]);\\n",
+  "mutate": []
+ },
+ "OpINTDIVC": {
+  "opcodes": [
+   "INTDIV"
+  ],
+  "override": "Stk[Inst[OP_A]]=__INTDIV__(Stk[Inst[OP_B]],Const[Inst[OP_C]]);\\n",
+  "mutate": []
+ },
+ "OpINTDIVD": {
+  "opcodes": [
+   "INTDIV"
+  ],
+  "override": "Stk[Inst[OP_A]]=__INTDIV__(Const[Inst[OP_B]],Const[Inst[OP_C]]);\\n",
+  "mutate": []
+ },
+ "OpJmp": {
+  "opcodes": [
+   "Jmp"
+  ],
+  "override": "InstrPoint=Inst[OP_B];",
+  "mutate": []
+ },
+ "OpLe": {
+  "opcodes": [
+   "Le"
+  ],
+  "override": "if(Stk[Inst[OP_A]]<=Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpLeB": {
+  "opcodes": [
+   "Le"
+  ],
+  "override": "if(Const[Inst[OP_A]]<=Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpLeC": {
+  "opcodes": [
+   "Le"
+  ],
+  "override": "if(Stk[Inst[OP_A]]<=Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpLeBC": {
+  "opcodes": [
+   "Le"
+  ],
+  "override": "if(Const[Inst[OP_A]]<=Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpLen": {
+  "opcodes": [
+   "Len"
+  ],
+  "override": "Stk[Inst[OP_A]]=#Stk[Inst[OP_B]];",
+  "mutate": []
+ },
+ "OpLoadBool": {
+  "opcodes": [
+   "LoadBool"
+  ],
+  "override": "Stk[Inst[OP_A]]=(Inst[OP_B]~=0);",
+  "mutate": []
+ },
+ "OpLoadBoolC": {
+  "opcodes": [
+   "LoadBool"
+  ],
+  "override": "Stk[Inst[OP_A]]=(Inst[OP_B]~=0);InstrPoint=InstrPoint+1;",
+  "mutate": []
+ },
+ "OpLoadK": {
+  "opcodes": [
+   "LoadConst"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]];",
+  "mutate": [
+   [
+    "B",
+    "++",
+    null
+   ]
+  ]
+ },
+ "OpLoadB": {
+  "opcodes": [
+   "LoadN"
+  ],
+  "override": "Stk[Inst[OP_A]]=Inst[OP_B];",
+  "mutate": [
+   [
+    "B",
+    "++",
+    null
+   ]
+  ]
+ },
+ "OpLoadKList": {
+  "opcodes": [
+   "LoadConstList"
+  ],
+  "override": null,
+  "mutate": [
+   [
+    "B",
+    "++",
+    null
+   ]
+  ]
+ },
+ "OpLoadNilMulti": {
+  "opcodes": [
+   "LoadNil"
+  ],
+  "override": "for Idx=Inst[OP_A],Inst[OP_B] do Stk[Idx]=nil;end;",
+  "mutate": []
+ },
+ "OpLoadNilSingle": {
+  "opcodes": [
+   "LoadNil"
+  ],
+  "override": "Stk[Inst[OP_A]]=nil;",
+  "mutate": []
+ },
+ "OpLt": {
+  "opcodes": [
+   "Lt"
+  ],
+  "override": "if(Stk[Inst[OP_A]]<Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpLtB": {
+  "opcodes": [
+   "Lt"
+  ],
+  "override": "if(Const[Inst[OP_A]]<Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpLtC": {
+  "opcodes": [
+   "Lt"
+  ],
+  "override": "if(Stk[Inst[OP_A]]<Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpLtBC": {
+  "opcodes": [
+   "Lt"
+  ],
+  "override": "if(Const[Inst[OP_A]]<Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpMod": {
+  "opcodes": [
+   "Mod"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]%Stk[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpModB": {
+  "opcodes": [
+   "Mod"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]%Const[Inst[OP_C]];",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpModC": {
+  "opcodes": [
+   "Mod"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]%Const[Inst[OP_C]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpModBC": {
+  "opcodes": [
+   "Mod"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]%Const[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpMove": {
+  "opcodes": [
+   "Move"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]];",
+  "mutate": []
+ },
+ "OpMoveList": {
+  "opcodes": [
+   "MoveList"
+  ],
+  "override": null,
+  "mutate": [
+   [
+    "B",
+    "++",
+    null
+   ]
+  ]
+ },
+ "OpMul": {
+  "opcodes": [
+   "Mul"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]*Stk[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpMulB": {
+  "opcodes": [
+   "Mul"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]*Stk[Inst[OP_C]];",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpMulC": {
+  "opcodes": [
+   "Mul"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]*Const[Inst[OP_C]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpMulBC": {
+  "opcodes": [
+   "Mul"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]*Const[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpMutated": {
+  "opcodes": [],
+  "override": "",
+  "mutate": []
+ },
+ "OpNOP": {
+  "opcodes": [
+   "NOP"
+  ],
+  "override": "",
+  "mutate": []
+ },
+ "OpNe": {
+  "opcodes": [
+   "Eq"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpNeB": {
+  "opcodes": [
+   "Eq"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpNeC": {
+  "opcodes": [
+   "Eq"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpNeBC": {
+  "opcodes": [
+   "Eq"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpNewStk": {
+  "opcodes": [
+   "NewStack"
+  ],
+  "override": "Stk = {};for Idx = 0, PCount do if Idx < Params then Stk[Idx] = Args[Idx + 1]; else break end; end;",
+  "mutate": []
+ },
+ "OpNewTableB0": {
+  "opcodes": [
+   "NewTable"
+  ],
+  "override": "Stk[Inst[OP_A]]={};",
+  "mutate": []
+ },
+ "OpNewTableB5000": {
+  "opcodes": [
+   "NewTable"
+  ],
+  "override": "Stk[Inst[OP_A]]={};",
+  "mutate": []
+ },
+ "OpNewTableBElse": {
+  "opcodes": [
+   "NewTable"
+  ],
+  "override": "Stk[Inst[OP_A]]={Unpack({}, 1, Inst[OP_B])};",
+  "mutate": []
+ },
+ "OpNot": {
+  "opcodes": [
+   "Not"
+  ],
+  "override": "Stk[Inst[OP_A]]=(not Stk[Inst[OP_B]]);",
+  "mutate": []
+ },
+ "OpPolymorphic": {
+  "opcodes": [
+   "Polymorphic"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpPow": {
+  "opcodes": [
+   "Pow"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]^Stk[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpPowB": {
+  "opcodes": [
+   "Pow"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]^Stk[Inst[OP_C]];",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpPowC": {
+  "opcodes": [
+   "Pow"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]^Const[Inst[OP_C]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpPowBC": {
+  "opcodes": [
+   "Pow"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]^Const[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpPrepArgs": {
+  "opcodes": [
+   "PrepArgs"
+  ],
+  "override": "Args = {...}",
+  "mutate": []
+ },
+ "OpPrepConsts": {
+  "opcodes": [
+   "PrepConsts"
+  ],
+  "override": "Const = Chunk[CONST_CHUNK];",
+  "mutate": []
+ },
+ "OpPrepEnv": {
+  "opcodes": [
+   "PrepEnv"
+  ],
+  "override": "Env = GetFEnv()",
+  "mutate": []
+ },
+ "OpPrepLupvals": {
+  "opcodes": [
+   "PrepLUpvals"
+  ],
+  "override": "Lupvals = {}",
+  "mutate": []
+ },
+ "OpPrepPCount": {
+  "opcodes": [
+   "PrepPCount"
+  ],
+  "override": "PCount = Select('#', ...) - 1",
+  "mutate": []
+ },
+ "OpPrepParams": {
+  "opcodes": [
+   "PrepParams"
+  ],
+  "override": "Params = Chunk[PARAMS_CHUNK];",
+  "mutate": []
+ },
+ "OpPrepProtos": {
+  "opcodes": [
+   "PrepProtos"
+  ],
+  "override": "Proto = Chunk[PROTO_CHUNK];",
+  "mutate": []
+ },
+ "OpPrepStack": {
+  "opcodes": [
+   "PrepStack"
+  ],
+  "override": "Stk = {}",
+  "mutate": []
+ },
+ "OpPrepStackArgs": {
+  "opcodes": [
+   "PrepStackArgs"
+  ],
+  "override": "",
+  "mutate": []
+ },
+ "OpPrepTop": {
+  "opcodes": [
+   "PrepTop"
+  ],
+  "override": "Top = -1",
+  "mutate": []
+ },
+ "OpPrepVararg": {
+  "opcodes": [
+   "PrepVararg"
+  ],
+  "override": "Vararg = {}",
+  "mutate": []
+ },
+ "OpPrepVarargSize": {
+  "opcodes": [
+   "PrepVarargSize"
+  ],
+  "override": "Varargsz = PCount - Params + 1",
+  "mutate": []
+ },
+ "OpPushAKey": {
+  "opcodes": [
+   "PushAKey"
+  ],
+  "override": "Stk[Inst[OP_A]] = OP_A;",
+  "mutate": []
+ },
+ "OpPushBKey": {
+  "opcodes": [
+   "PushBKey"
+  ],
+  "override": "Stk[Inst[OP_A]] = OP_B;",
+  "mutate": []
+ },
+ "OpPushCKey": {
+  "opcodes": [
+   "PushCKey"
+  ],
+  "override": "Stk[Inst[OP_A]] = OP_C;",
+  "mutate": []
+ },
+ "OpPushCache": {
+  "opcodes": [
+   "PushCache"
+  ],
+  "override": "Stk[Inst[OP_A]] = Cache;",
+  "mutate": []
+ },
+ "OpPushConstCache": {
+  "opcodes": [
+   "PushConstCache"
+  ],
+  "override": "Stk[Inst[OP_A]] = ConstantsCache;",
+  "mutate": []
+ },
+ "OpPushConsts": {
+  "opcodes": [
+   "PushConsts"
+  ],
+  "override": "Stk[Inst[OP_A]] = Const;",
+  "mutate": []
+ },
+ "OpPushEnumKey": {
+  "opcodes": [
+   "PushEnumKey"
+  ],
+  "override": "Stk[Inst[OP_A]] = OP_ENUM;",
+  "mutate": []
+ },
+ "OpPushInsts": {
+  "opcodes": [
+   "PushInsts"
+  ],
+  "override": "Stk[Inst[OP_A]] = Instr;",
+  "mutate": []
+ },
+ "OpPushPC": {
+  "opcodes": [
+   "NOP"
+  ],
+  "override": "Stk[Inst[OP_A]] = InstrPoint;",
+  "mutate": []
+ },
+ "OpPushStk": {
+  "opcodes": [
+   "PushStack"
+  ],
+  "override": "Stk[Inst[OP_A]] = Stk",
+  "mutate": []
+ },
+ "OpPushStkPersistent": {
+  "opcodes": [
+   "PushStackPersistent"
+  ],
+  "override": "Stk[Inst[OP_A]] = PersistentStacks;",
+  "mutate": []
+ },
+ "OpPushConstPersistent": {
+  "opcodes": [
+   "PushConstCache"
+  ],
+  "override": "Stk[Inst[OP_A]] = ConstantsCache;",
+  "mutate": []
+ },
+ "OpPushXor": {
+  "opcodes": [
+   "PushXor"
+  ],
+  "override": "Stk[Inst[OP_A]] = BitXOR;",
+  "mutate": []
+ },
+ "OpPushXorKey": {
+  "opcodes": [
+   "PushXorKey"
+  ],
+  "override": "Stk[Inst[OP_A]] = INSTRUCTION_XOR_KEY ",
+  "mutate": []
+ },
+ "OpReplay": {
+  "opcodes": [
+   "Replay"
+  ],
+  "override": " if Inst[OP_A] ~= 0 then InstrPoint = InstrPoint + Inst[OP_B]; Inst[OP_B] = 0; end;",
+  "mutate": []
+ },
+ "OpReplayJmp": {
+  "opcodes": [
+   "ReplayJmp"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpReturn": {
+  "opcodes": [
+   "Return"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpReturnB2": {
+  "opcodes": [
+   "Return"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpReturnB3": {
+  "opcodes": [
+   "Return"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpReturnB0": {
+  "opcodes": [
+   "Return"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpReturnB1": {
+  "opcodes": [
+   "Return"
+  ],
+  "override": "do return end;",
+  "mutate": []
+ },
+ "OpReverseConstB": {
+  "opcodes": [
+   "ReverseConstBInt"
+  ],
+  "override": "Const[Inst[OP_B]] = -Const[Inst[OP_B]];",
+  "mutate": []
+ },
+ "OpReverseConstC": {
+  "opcodes": [
+   "ReverseConstCInt"
+  ],
+  "override": "Const[Inst[OP_C]] = -Const[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpReverseStkC": {
+  "opcodes": [
+   "ReverseStkCInt"
+  ],
+  "override": "Stk[Inst[OP_C]] = -Stk[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpReverseStkB": {
+  "opcodes": [
+   "ReverseStkBInt"
+  ],
+  "override": "Stk[Inst[OP_B]] = -Stk[Inst[OP_B]];",
+  "mutate": []
+ },
+ "OpSelf": {
+  "opcodes": [
+   "Self"
+  ],
+  "override": "local A=Inst[OP_A];local B=Stk[Inst[OP_B]];Stk[A+1]=B;Stk[A]=B[Stk[Inst[OP_C]]];",
+  "mutate": []
+ },
+ "OpSelfC": {
+  "opcodes": [
+   "Self"
+  ],
+  "override": "local A=Inst[OP_A];local B=Stk[Inst[OP_B]];Stk[A+1]=B;Stk[A]=B[Const[Inst[OP_C]]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpSetFEnv": {
+  "opcodes": [
+   "SetFenv"
+  ],
+  "override": "Env = Stk[Inst[OP_A]];",
+  "mutate": []
+ },
+ "OpGetFEnv": {
+  "opcodes": [
+   "GetFEnv"
+  ],
+  "override": "Stk[Inst[OP_A]] = Env;",
+  "mutate": []
+ },
+ "OpSetGlobal": {
+  "opcodes": [
+   "SetGlobal"
+  ],
+  "override": "Env[Const[Inst[OP_B]]]=Stk[Inst[OP_A]];",
+  "mutate": [
+   [
+    "B",
+    "++",
+    null
+   ]
+  ]
+ },
+ "OpSetList": {
+  "opcodes": [
+   "SetList"
+  ],
+  "override": "local A=Inst[OP_A];local Offset=(Inst[OP_C]-1)*50;local T=Stk[A];local B=Inst[OP_B];for Idx=1,B do T[Offset+Idx]=Stk[A+Idx] end;",
+  "mutate": []
+ },
+ "OpSetListC1": {
+  "opcodes": [
+   "SetList"
+  ],
+  "override": "local A=Inst[OP_A];local T=Stk[A];local B=Inst[OP_B];for Idx=1,B do T[Idx]=Stk[A+Idx] end;",
+  "mutate": []
+ },
+ "OpSetListB0": {
+  "opcodes": [
+   "SetList"
+  ],
+  "override": "local A=Inst[OP_A];local Offset=(Inst[OP_C]-1)*50;local T=Stk[A];local X=Top-A;for Idx=1,X do T[Offset+Idx]=Stk[A+Idx] end;",
+  "mutate": []
+ },
+ "OpSetListC0": {
+  "opcodes": [
+   "SetList"
+  ],
+  "override": "local A=Inst[OP_A];InstrPoint=InstrPoint+1;local Offset=(Instr[InstrPoint][OP_DATA]-1)*50;local T=Stk[A];local B=Inst[OP_B];for Idx=1,B do T[Offset+Idx]=Stk[A+Idx] end;",
+  "mutate": []
+ },
+ "OpSetListB0C0": {
+  "opcodes": [
+   "SetList"
+  ],
+  "override": "local A=Inst[OP_A];InstrPoint=InstrPoint+1;local Offset=(Instr[InstrPoint][OP_DATA]-1)*50;local T=Stk[A];local X=Top-A;for Idx=1,X do T[Offset+Idx]=Stk[A+Idx] end;",
+  "mutate": []
+ },
+ "OpSetListB0C1": {
+  "opcodes": [
+   "SetList"
+  ],
+  "override": "local A=Inst[OP_A];local T=Stk[A];local X=Top-A;for Idx=1,X do T[Idx]=Stk[A+Idx] end;",
+  "mutate": []
+ },
+ "OpSetTable": {
+  "opcodes": [
+   "SetTable"
+  ],
+  "override": "Stk[Inst[OP_A]][Stk[Inst[OP_B]]]=Stk[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpSetTableB": {
+  "opcodes": [
+   "SetTable"
+  ],
+  "override": "Stk[Inst[OP_A]][Const[Inst[OP_B]]]=Stk[Inst[OP_C]];",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpSetTableC": {
+  "opcodes": [
+   "SetTable"
+  ],
+  "override": "Stk[Inst[OP_A]][Stk[Inst[OP_B]]]=Const[Inst[OP_C]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpSetTableBC": {
+  "opcodes": [
+   "SetTable"
+  ],
+  "override": "Stk[Inst[OP_A]][Const[Inst[OP_B]]]=Const[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpSetTop": {
+  "opcodes": [
+   "SetTop"
+  ],
+  "override": "Top=Inst[OP_A];",
+  "mutate": []
+ },
+ "OpSetUpval": {
+  "opcodes": [
+   "SetUpval"
+  ],
+  "override": "local UV = Upvalues[Inst[OP_B]];UV[1][UV[2]]=Stk[Inst[OP_A]];",
+  "mutate": []
+ },
+ "OpSub": {
+  "opcodes": [
+   "Sub"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]-Stk[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpSubB": {
+  "opcodes": [
+   "Sub"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]-Stk[Inst[OP_C]];",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpSubC": {
+  "opcodes": [
+   "Sub"
+  ],
+  "override": "Stk[Inst[OP_A]]=Stk[Inst[OP_B]]-Const[Inst[OP_C]];",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
+ },
+ "OpSubBC": {
+  "opcodes": [
+   "Sub"
+  ],
+  "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]-Const[Inst[OP_C]];",
+  "mutate": []
+ },
+ "OpSuperOperator": {
+  "opcodes": [],
+  "override": "",
+  "mutate": []
+ },
+ "OpTForLoop": {
+  "opcodes": [],
+  "override": null,
+  "mutate": []
+ },
+ "OpTailCall": {
+  "opcodes": [
+   "TailCall"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpTailCallB0": {
+  "opcodes": [
+   "TailCall"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpTailCallB1": {
+  "opcodes": [
+   "TailCall"
+  ],
+  "override": "do return Stk[Inst[OP_A]](); end;",
+  "mutate": []
+ },
+ "OpTest": {
+  "opcodes": [
+   "Test"
+  ],
+  "override": "if Stk[Inst[OP_A]] then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpTestC": {
+  "opcodes": [
+   "Test"
+  ],
+  "override": "if not Stk[Inst[OP_A]] then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpTestSet": {
+  "opcodes": [
+   "TestSet"
+  ],
+  "override": "local B=Stk[Inst[OP_C]];if B then InstrPoint=InstrPoint+1;else Stk[Inst[OP_A]]=B;InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpTestSetC": {
+  "opcodes": [
+   "TestSet"
+  ],
+  "override": "local B=Stk[Inst[OP_C]];if not B then InstrPoint=InstrPoint+1;else Stk[Inst[OP_A]]=B;InstrPoint=Inst[OP_B];end;",
+  "mutate": []
+ },
+ "OpUnm": {
+  "opcodes": [
+   "Unm"
+  ],
+  "override": "Stk[Inst[OP_A]]=-Stk[Inst[OP_B]];",
+  "mutate": []
+ },
+ "OpUnpackTable": {
+  "opcodes": [
+   "UnpackTable"
+  ],
+  "override": "return Unpack(Stk[Inst[OP_A]]);",
+  "mutate": []
+ },
+ "OpVarArg": {
+  "opcodes": [
+   "VarArg"
+  ],
+  "override": null,
+  "mutate": []
+ },
+ "OpVarArgB0": {
+  "opcodes": [
+   "VarArg"
+  ],
+  "override": null,
+  "mutate": []
+ }
+}
