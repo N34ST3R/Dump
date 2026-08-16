@@ -15,9 +15,8 @@
 
 ## What remains (not yet reversed)
 
-1. **Shuffle**: `ShuffleABC`/`ShuffleBC`/...
+1. **Shuffle**: `ShuffleABC`/`ShuffleBC`
 2. **Static `Mutate` offsets**
-Two layers still need a **VM simulator** (not static):
 
 1. **Polymorphic wrappers (`POLY`)**
 2. **Value-stack `PUSH`/`CALL`**
