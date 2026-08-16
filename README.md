@@ -1,4 +1,4 @@
-# Dump 
+# Dump
 
 ## Opcode map (recovered)
 
@@ -15,9 +15,9 @@
 
 ## What remains (not yet reversed)
 
-The instruction **operands** are still the obfuscated (pre-mutation) values.
-1. **Polymorphic wrappers**
+1. **Shuffle**: `ShuffleABC`/`ShuffleBC`/...
 2. **Static `Mutate` offsets**
-3. **Operand shuffling**
+Two layers still need a **VM simulator** (not static):
 
-thanks TechHog for the luau-format i love it so much
+1. **Polymorphic wrappers (`POLY`)**
+2. **Value-stack `PUSH`/`CALL`**
