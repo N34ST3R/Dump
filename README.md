@@ -13,12 +13,4 @@
   1 GETSTK      1 POW        1 GETVARARG  1 UNM        1 SETGLOBAL
 ```
 
-## What remains (not yet reversed)
-
-1. **Shuffle**: `ShuffleABC`/`ShuffleBC`
-2. **Static `Mutate` offsets**
-
-1. **Polymorphic wrappers (`POLY`)**
-2. **Value-stack `PUSH`/`CALL`**
-
 credits to ux for helping me dump most of these
