@@ -1,0 +1,7202 @@
+{
+ "33": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB~=RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "34": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2,T3=IA,IB,ICT2=T4[T2]T1=T5[T1]T5[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "31": {
+  "generic": "NEWTABLE",
+  "class": "OpNewTableB0",
+  "perm": "id",
+  "sig": "RA={}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "32": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "RA[N]=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "37": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT1=T2[T3]T3=T3-NT1()",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "35": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "36": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=IA,IBT2=T3[T2]T3[T1]=T2[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "46": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2,T3,T4=T5[T1]()T2...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "47": {
+  "generic": "FORPREP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2,T3,T4=T5[T1],T5[(N)+T1],T5[(N)+T1]T5[T1]=T6(())T7=(N)+T1T8=IB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "43": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T4=T4-(N)T2,T5=T5(T2)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "44": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2[T1]=T2[T1]()",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "45": {
+  "generic": "LT",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB>RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "38": {
+  "generic": "VARARG",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=IBT2=(T2==N)T3(T1+T2-N)T4=T5+NT5=T4-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "39": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3T3=T4",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "40": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=T1(bRB,,T2)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "41": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2[T1]={T2[T1]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "42": {
+  "generic": "JUMPIF",
+  "class": null,
+  "perm": "id",
+  "sig": "RA...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "82": {
+  "generic": "DIV",
+  "class": "OpDiv",
+  "perm": "id",
+  "sig": "RA=RB/RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "83": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3T4=T5T6=T4+NT7=T8[T6]T2=T9(T10,T7(T11(T8,T6+N,T2)))T12=T1+T2-NT3=T4T1=T13[T14]T14=T14-NT5=T1N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "84": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "78": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=IBT2=T2T3=T4T2=T3-T2+NT5=T6[T2]T7[T1]=T5(T8(T6,T2+N,T3))T4=T2-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "79": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[IE]T4=T5[T1]T5[T1]=T4[T2](T4,T5[T1+N],T5[T1+N])",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "80": {
+  "generic": "GETCONSTTBL",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "81": {
+  "generic": "MOVE",
+  "class": "OpMove",
+  "perm": "id",
+  "sig": "RA=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "74": {
+  "generic": "NEWTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=IA,IBT2=T3[T2]T4={}T5[T1]=T4",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "72": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IC==N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "73": {
+  "generic": "LOADNIL",
+  "class": "OpLoadNilSingle",
+  "perm": "id",
+  "sig": "RA=",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "75": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2,T3=IA,IB,ICT2=T4[T2]T1=T5[T1]T6=T6T1~=...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "76": {
+  "generic": "FORPREP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T1]T4=T3[T1+N]T3[T1]=T2-T4T5=IB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "77": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T1]+T3[(N)+T1]T3[T1]=T2T2<=T3[T1+(N)]...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "113": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[IE]T4=T5[T1]T2=T4[T2]T2=T6(T7,T2(T4,T5[T1+N],T5[T1+N]))T8=T1+T2-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "111": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T1=T6[(N)+T1]T1[T5]==N...T2=T2+(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "112": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=bRBT1=T1[N]T2=#T1T3={}T1=T4[IC](T3)RA=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "107": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "108": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N](T1[T5])==(N)...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "109": {
+  "generic": "LE",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB>=RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "110": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[(N)+T1]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "102": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=IBT3=T4[IE]T5=T6[T1]T3=T5[T3]T2=T1+T2-NT6[T1]=T3(T5,T7(T6,T1+N,T2))",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "103": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "100": {
+  "generic": "TEST",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "101": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=IA,(IC*N)T3=T4[T1]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "104": {
+  "generic": "VARARG",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3-T2-NT2<(N)...T4=T5-T1T6=T1+T2",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "105": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "106": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N](T3[T5])==(N)...T3=T6[(N)+T1]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "121": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=IA,((N)*(IC))T3=T4[T1]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "119": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4(T3[T5])==(N)...T3=T6[T1+N]T3[T5]==(N)...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "120": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4(T3[T5])==(N)...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "122": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB(RC,RE)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "123": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=IA,(IC*N)T3=T4[T1]T3[T2+(N)]=T4[(N)+T1]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "114": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "RB(RC,RE)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "115": {
+  "generic": "GETSTK",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "116": {
+  "generic": "MOVE",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "117": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T6=T3[T4-N]T7=T3[T4-N]T4=T4-NT2=T8(T9,T7(T6,T5,T2))T10=T1+T2-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "118": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T1=T6[T1+N](T1[T5])==(N)...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "137": {
+  "generic": "MUL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T2,T3=T2,((N)*T3)T4=T5[T2]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "138": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "139": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "140": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "143": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "141": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "142": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "132": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T4=T4-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "133": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T4=T4-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "135": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "136": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "134": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "128": {
+  "generic": "FORPREP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2,T3,T4=T5[T1],T5[T1+(N)],T5[T1+(N)]T5[T1]=T6(())T7=T1+NT8=IB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "129": {
+  "generic": "GETVARARG",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=T1[T2]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "130": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[(N)+T1]T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T3=T6[T1+N](T3[T5])==(N)...T3=T6[T1+N]T3[T5]==N...T3=T6[T1+(N)]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "131": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[(N)+T1]T3[T5]==N...T3=T6[T1+N](T3[T5])==(N)...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=(N)+T2",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "124": {
+  "generic": "POW",
+  "class": "OpPow",
+  "perm": "id",
+  "sig": "RA=RB^RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "125": {
+  "generic": "TEST",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=#T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "126": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T6=T3[T4-N]T7=T3[T4-N]T4=T4-(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "127": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2,T3=T4[T1]()T2...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "91": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[IE]T4=T5[T1]T2=T4[T2]T2=T6(T7,T2(T4,T5[T1+N]))T8=T1+T2-(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "92": {
+  "generic": "LEN",
+  "class": "OpLen",
+  "perm": "id",
+  "sig": "RA=#RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "93": {
+  "generic": "CLOSE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T1[N]T3==NT3==N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "94": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "95": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "RB(RC)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "96": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[IE]T4=T5[T1]T2=T4[T2]T5[T1]=T2(T4)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "97": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[IE]T4=T5[T1]T5[T1]=T4[T2](T4,T6(T5,(N)+T1,T7))",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "98": {
+  "generic": "TEST",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=GB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "99": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T6=T3[T4-(N)]T4=T4-(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "87": {
+  "generic": "MOD",
+  "class": "OpMod",
+  "perm": "id",
+  "sig": "RA=RB%RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "85": {
+  "generic": "NEWTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=IA,IBT2=T3[T2]T4={}T5[T1]=T4",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "86": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "90": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T3=T3-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "88": {
+  "generic": "TEST",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "89": {
+  "generic": "LEN",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=#IA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "288": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "289": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T5=T2[T3-N]T6=T2[T3-N]T3=T3-NT6(T5,T4,T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "285": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T5=T2[T3-N]T6=T2[T3-N]T3=T3-NT6(T5,T4,T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "286": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "287": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=(N)+T1T2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "292": {
+  "generic": "GETTABLE",
+  "class": "OpGetTable",
+  "perm": "AB",
+  "sig": "RB=RA[RC]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "293": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "290": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "291": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=(N)+T3T4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "297": {
+  "generic": "SETTABLE",
+  "class": "OpSetTable",
+  "perm": "AB",
+  "sig": "RB[RA]=RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "298": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T5=T2[T3-N]T6=T2[T3-N]T3=T3-NT6(T5,T4,T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "294": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT2[T1]={T2[T1]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "295": {
+  "generic": "MOVE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=RA,IBT3[T2+N]=T1T3[T2]=T1[KC]",
+  "kb": false,
+  "kc": true,
+  "ka": false
+ },
+ "296": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "299": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2,T3=IB,IA,ICT2=T4[T2]T1=T5[T1]T5[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "300": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+(N)T2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "301": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "302": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "310": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+(N)T2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "311": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "308": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "309": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T3]T4=T2[T3-N]T3=T3-NT4(T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "303": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "304": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "305": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "306": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T3]T3=T3-NT1()",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "307": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T5=T2[T3-N]T6=T2[T3-(N)]T3=T3-NT6(T5,T4,T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "319": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT2=T3[T4]T5=T3[T4-N]T4=T4-NT6[T1]=T5(T2)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "320": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "RB=UA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "317": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "318": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "315": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "316": {
+  "generic": "TEST",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=#T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "312": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "313": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "314": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "350": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "351": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "348": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "349": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T3]T3=T3-NT1()",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "354": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "355": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "352": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "353": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "342": {
+  "generic": "GETTABLE",
+  "class": "OpGetTable",
+  "perm": "AB",
+  "sig": "RB=RA[RC]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "343": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "341": {
+  "generic": "ADD",
+  "class": "OpAdd",
+  "perm": "AB",
+  "sig": "RB=RA+RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "339": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T5=T2[T3-N]T6=T2[T3-N]T3=T3-(N)T6(T5,T4,T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "340": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "344": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "345": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "346": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "347": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+(N)T4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "335": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T5=T2[T3-N]T6=T2[T3-N]T3=T3-NT6(T5,T4,T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "336": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "337": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "338": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "330": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT2=T3[T4]T5=T3[T4-N]T4=T4-NT2=T6(T7,T5(T2))T8=T2+T1-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "331": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "332": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "333": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=(N)+T1T2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "334": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT2=T3[T4]T5=T3[T4-N]T4=T4-NT6[T1]=T5(T2)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "321": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT2=T3[T4]T5=T3[T4-(N)]T6=T3[T4-(N)]T4=T4-NT7[T1]=T6(T5,T2)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "322": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "323": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "324": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT2=T3[IE]T4=T5[T1]T5[T1]=T4[T2](T4,T5[(N)+T1])",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "325": {
+  "generic": "GETCOND",
+  "class": null,
+  "perm": "id",
+  "sig": "RB=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "328": {
+  "generic": "GETTABLE",
+  "class": "OpGetTable",
+  "perm": "AB",
+  "sig": "RB=RA[RC]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "329": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "RB=UA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "326": {
+  "generic": "GETTABLE",
+  "class": "OpGetTable",
+  "perm": "AB",
+  "sig": "RB=RA[RC]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "327": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2[T1]=T2[T1](T2[T1+N])",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "405": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "406": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "407": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "408": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "400": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "401": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "402": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "403": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "404": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "398": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=(N)+T1T2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "399": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "396": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "397": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=(N)+T3T4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "394": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=(N)+T3T4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "395": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "391": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "392": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "393": {
+  "generic": "NEWTABLE",
+  "class": "OpNewTableB0",
+  "perm": "AB",
+  "sig": "RB={}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "420": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "421": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "418": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "419": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "422": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "423": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "424": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "425": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "414": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "415": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "416": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "417": {
+  "generic": "LE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]>=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "412": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "413": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "409": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "410": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "411": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "389": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "390": {
+  "generic": "SETTABLE",
+  "class": "OpSetTable",
+  "perm": "AB",
+  "sig": "RB[RA]=RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "387": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "388": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "385": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "386": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "383": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "384": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "379": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "380": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "381": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "382": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "374": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "375": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "376": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "377": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "378": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "365": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "366": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "367": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "368": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "369": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "370": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "371": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "372": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "373": {
+  "generic": "LT",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]>T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "363": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "364": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "361": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "362": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "359": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "360": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "356": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "357": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "358": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "158": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "159": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "160": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "161": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "156": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "157": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "153": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "154": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "155": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "151": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "152": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "149": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "150": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "146": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "144": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "145": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "147": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "148": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "178": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "179": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "176": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "177": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "174": {
+  "generic": "LE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]<=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "175": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "173": {
+  "generic": "SUB",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]-T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "171": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "172": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "169": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "170": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "167": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "168": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "164": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "162": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "163": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "165": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "166": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "180": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "181": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "182": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "183": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "184": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "185": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "186": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "187": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "188": {
+  "generic": "LT",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]>T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "196": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "197": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "194": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "195": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "191": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "189": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "190": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "192": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "193": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "201": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "202": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "198": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "199": {
+  "generic": "LT",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]>T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "200": {
+  "generic": "ADD",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=(T5[T4])+(T5[T3])",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "205": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "206": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "203": {
+  "generic": "LT",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]>T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "204": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "211": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "212": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "213": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "214": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "209": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "210": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IA)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "207": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "208": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "248": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "249": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "246": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "247": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "244": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "245": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "242": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "243": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "233": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "234": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "235": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "236": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "237": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "238": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "239": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "240": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "241": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "218": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "219": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "215": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "216": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "217": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "220": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IB)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "221": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "222": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "223": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "231": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "232": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "229": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "230": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "226": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "224": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IA)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "225": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "227": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "228": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "252": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "250": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "251": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "253": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "254": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "255": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "256": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "257": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "258": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "266": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "267": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "264": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "265": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "262": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "263": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "261": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "259": {
+  "generic": "SETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2][T5[T3]]=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "260": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]==T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "283": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "284": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "281": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "AB",
+  "sig": "T1=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "282": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "279": {
+  "generic": "MOVE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=RA,IBT3[T2+N]=T1T3[T2]=T1[KC]",
+  "kb": false,
+  "kc": true,
+  "ka": false
+ },
+ "280": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=T3+NT4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "277": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "278": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=(N)+T3T4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "271": {
+  "generic": "ADD",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]+T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "272": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "268": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "269": {
+  "generic": "MOD",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]%T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "270": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3]~=T5[T4]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "273": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "274": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "275": {
+  "generic": "GETTABLE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4=T1[N][N](T1[N][N])T5[T2]=T5[T3][T5[T4]]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "276": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[N][N]=IET2=T1[N][N](T1[N][N])T3=T1[N][N](T1[N][N])T4[T2]=T5[T3]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "528": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[(N)+T1]T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N](T1[T5])==(N)...T2=T2+(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "529": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N]T3[T5]==(N)...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "530": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "531": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "526": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[(N)+T1],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "527": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "524": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+N],T5[T1+(N)]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "525": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+N],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "520": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+(N)],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "521": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+N],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "522": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[(N)+T1],T5[(N)+T1]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "523": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+N],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "517": {
+  "generic": "SETGLOBAL",
+  "class": "OpSetGlobal",
+  "perm": "id",
+  "sig": "GB=RA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "515": {
+  "generic": "UNM",
+  "class": "OpUnm",
+  "perm": "id",
+  "sig": "RA=-RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "516": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T1-NT2=T3-T1+NT3=T2-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "518": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[(N)+T1],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "519": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[IE]T4=T5[T1]T2=T4[T2]T2=T6(T7,T2(T4))T8=T1+T2-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "509": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T1=T6[(N)+T1]T1[T5]==N...T2=T2+(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "510": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+N],T5[(N)+T1]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "508": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+(N)]T3[T5]==N...T3=T6[(N)+T1]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "506": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4(T3[T5])==(N)...T3=T6[T1+N]T3[T5]==(N)...T3=T6[T1+N]T3[T5]==(N)...T3=T6[T1+N]T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+(N)](T1[T5])==(N)...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "507": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[(N)+T1]T3[T5]==N...T3=T6[T1+(N)]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "511": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+N],T5[(N)+T1]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "512": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=ICT3=T4[T5]T6=T4[T5-(N)]T5=T5-NT2==(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "513": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T6=T3[T4-N]T4=T4-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "514": {
+  "generic": "VARARG",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=IBT3=T4-T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "497": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[(N)+T1],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "498": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+(N)],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "499": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N](T3[T5])==(N)...T3=T6[T1+N]T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "500": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+N],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "501": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T1=T6[(N)+T1]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "504": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N](T3[T5])==(N)...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "505": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T1=T6[(N)+T1]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "502": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T1=T6[(N)+T1]T1[T5]==N...T2=T2+(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "503": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==(N)...T3=T6[T1+N]T3[T5]==N...T3=T6[(N)+T1]T3[T5]==N...T3=T6[(N)+T1]T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T3=T6[T1+N](T3[T5])==(N)...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "539": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "540": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "537": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "538": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "535": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "536": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "532": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "533": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "534": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "546": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "547": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "548": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4(T3[T5])==(N)...T3=T6[T1+N](T3[T5])==(N)...T1=T6[T1+N]T1[T5]==N...T2=(N)+T2",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "549": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "541": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "542": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-(N)),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "543": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "544": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "545": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "555": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "556": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "557": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-(N)),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "558": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=(IB-N),[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "552": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "550": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T3=T6[T1+(N)]T3[T5]==N...T3=T6[T1+N](T3[T5])==(N)...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "551": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N]T3[T5]==(N)...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+(N)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "553": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2T3=T4T3[T5]==N...T3=T6[T1+N]T3[T5]==N...T1=T6[T1+N]T1[T5]==N...T2=T2+N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "554": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "565": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB-(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "566": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "563": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "564": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "559": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "560": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB-N),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "561": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-(N)),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "562": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "480": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB+N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "481": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+(N)),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "482": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=((N)+(IB)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "483": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "484": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "485": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "486": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "487": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "488": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "489": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=((N)+(IB)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "490": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "491": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "492": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "495": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[T1+N],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "496": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[(N)+T1],T5[T1+(N)]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "493": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "494": {
+  "generic": "FORLOOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IA[N]T2=IC[N]T2,T3,T4=T5[T1],T5[(N)+T1],T5[T1+N]T5[T1]=T2T6=IB[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "474": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "475": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "473": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "471": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=((N)+(IC)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "472": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "476": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "477": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "478": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "479": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "462": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "463": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "464": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "465": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "466": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-(N)),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "469": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "470": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+(N)),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "467": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "468": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=((N)+(IC)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "456": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "457": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=((N)+(IC)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "455": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "453": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "454": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "458": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=(IB+N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "459": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "460": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "461": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "446": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "444": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "445": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "447": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "448": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "451": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "452": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=((N)+(IC)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "449": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "450": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "438": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB+N),[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "439": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "435": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "436": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "437": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "442": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "443": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB-(N)),[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "440": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "441": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "433": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "434": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+(N)),[T3]=(IB-N),[T4]=((N)+(IC)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "431": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "432": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "428": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "426": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=((N)+(IC)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "427": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "429": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=((N)+(IC)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "430": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "652": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=((N)+(IB)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "653": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "654": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "655": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "649": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "647": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "648": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "650": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "651": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "638": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "639": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-(N)),[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "640": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "641": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=((N)+(IB)),[T4]=(IC+(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "642": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "643": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=((N)+(IB)),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "644": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "645": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "646": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-(N)),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "671": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "672": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=(IC-(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "669": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "670": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "667": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "668": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "665": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "666": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "656": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=(IB-N),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "657": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "658": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "659": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+(N)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "660": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "661": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "662": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "663": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "664": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=((N)+(IB)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "698": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "699": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "696": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB+N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "697": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "694": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "695": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "693": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+(N)),[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "691": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "692": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "707": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "709": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=IA,(IC*N)T3=T4[T1]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "710": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "711": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "712": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "713": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "714": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "715": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "716": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "717": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "718": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "719": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "720": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "721": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "722": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "723": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "724": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "725": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "726": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "727": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "728": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "729": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "730": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "731": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "732": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "733": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "734": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "735": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "736": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "737": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "738": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "739": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "740": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "741": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "742": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "743": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "744": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "745": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "746": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "747": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "748": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "749": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "750": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "751": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "752": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "753": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "754": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "755": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "756": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "757": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "758": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "759": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "760": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "761": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "762": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "763": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "764": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "765": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "766": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "767": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "768": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "769": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "770": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "771": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "772": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "773": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "774": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "775": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "776": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "777": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "778": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "779": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "780": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "781": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "782": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "783": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "784": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "785": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "786": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "787": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "788": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "789": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "790": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "791": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "792": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "793": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "794": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "795": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "796": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "797": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "798": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "799": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "708": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "706": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "704": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=((N)+(IB)),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "705": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "702": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "703": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "700": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB-N),[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "701": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA+N),[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "684": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "682": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "683": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "685": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "686": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "689": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC-N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "690": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "687": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "688": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "680": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB+N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "681": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "678": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=(IB+N),[T4]=((N)+(IC)),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "679": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "676": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=(IA-N),[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "677": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=((N)+(IA)),[T3]=(IB-(N)),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "675": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "673": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=IB,[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "674": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=IC,[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "583": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "584": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IB)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "581": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "582": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "576": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "577": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "578": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "579": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "580": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "574": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "575": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "572": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "573": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "570": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "571": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "567": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "568": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "569": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "601": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IB)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "602": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "599": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "T1[RE]={[T2]=IA,[T3]=(IB-N),[T4]=(IC+N),[T5]=T1[RE][T5]}",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "600": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "597": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "598": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IA)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "594": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "595": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "596": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "585": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "586": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "587": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "588": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "589": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "590": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "591": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IB)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "592": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "593": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "630": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "631": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "632": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "633": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IB)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "636": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "637": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "634": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "635": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "624": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "625": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "621": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "622": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "623": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "628": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "629": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "626": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "627": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "615": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IA)~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "616": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "614": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "612": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "613": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "619": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "620": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "617": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "618": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "606": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "607": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "605": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "603": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "604": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "610": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "611": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IB~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "608": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "609": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IA~=N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "70": {
+  "generic": "GETCOND",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "71": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT1=IBT1=T1T2=T3T1=T2-T1+NT4=T5[T1]T4(T6(T5,T1+N,T2))T3=T1-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "68": {
+  "generic": "LE",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB<=RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "69": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]RA=T1[N]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "64": {
+  "generic": "LEN",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=#IA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "65": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T6=T3[T4-N]T4=T4-NT2=T7(T8,T6(T5,T2))T9=T1+T2-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "66": {
+  "generic": "LEN",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=#IA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "67": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT1=T2T3=T4T5=T3+NT6=T7[T5]T6(T8(T7,T5+(N),T1))T2=T3T1=T9[T10]T10=T10-NT4=(T1)T1N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "57": {
+  "generic": "CONCAT",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB..RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "58": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T4=T4-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "59": {
+  "generic": "SUB",
+  "class": "OpSub",
+  "perm": "id",
+  "sig": "RA=RB-RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "60": {
+  "generic": "MUL",
+  "class": "OpMul",
+  "perm": "id",
+  "sig": "RA=RB*RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "63": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T4=T4-NT5[T1]=T2()",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "61": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3(T4,T5[T1]())T6=T2+T1-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "62": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3T4=T5T6=(N)+T4T7=T8[T6]T3=T4T1=T9[T10]T10=T10-NT5=T1N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "50": {
+  "generic": "ADD",
+  "class": "OpAdd",
+  "perm": "id",
+  "sig": "RA=RB+RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "51": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "48": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB(RC)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "49": {
+  "generic": "MOVE",
+  "class": "OpMove",
+  "perm": "id",
+  "sig": "RA=RB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "54": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3T4=T5T6=(N)+T4T7=T8[T6]T9[T1]=T7(T10(T8,T6+N,T2))T3=T4T1=T11[T12]T12=T12-NT5=(T1)T1N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "52": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[IE]T4=T5[T1]T5[T1]=T4[T2](T4,T5[T1+N])",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "53": {
+  "generic": "SETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "UB[N]=RA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "55": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-(N)]T4=T4-NT2=T6(T7,T5(T2))T8=T1+T2-N",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "56": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T6=T3[T4-N]T7=T3[T4-N]T4=T4-(N)T8[T1]=T7(T6,T5,T2)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "17": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT1=T2[T3]T4=T2[T3-N]T3=T3-NT4(T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "18": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "19": {
+  "generic": "GETGLOBAL",
+  "class": "OpGetGlobal",
+  "perm": "id",
+  "sig": "RA=GB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "20": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "21": {
+  "generic": "NOP",
+  "class": "OpReturnB1",
+  "perm": "id",
+  "sig": "",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "22": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IC==N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "25": {
+  "generic": "EQ",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB==RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "26": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T6=T3[T4-N]T4=T4-NT7[T1]=T6(T5,T2)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "23": {
+  "generic": "LOADOP",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "24": {
+  "generic": "JUMP",
+  "class": "OpSetFEnv",
+  "perm": "id",
+  "sig": "T1=RA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "27": {
+  "generic": "JUMPTARGET",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=(IB)+T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "28": {
+  "generic": "MOVE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1,T2=RB,IAT3[(N)+T2]=T1T3[T2]=T1[KC]",
+  "kb": false,
+  "kc": true,
+  "ka": false
+ },
+ "29": {
+  "generic": "CLOSURE",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=bRBT2=T1[N]T3=#T2T4=F(T3)RA=T5(T1,T4,T6)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "30": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T5=T2[T3-N]T3=T3-NT5(T4,T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "9": {
+  "generic": "LOADK",
+  "class": "OpLoadK",
+  "perm": "id",
+  "sig": "RA=KB",
+  "kb": true,
+  "kc": false,
+  "ka": false
+ },
+ "10": {
+  "generic": "LEN",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=#IA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "7": {
+  "generic": "JUMP",
+  "class": "OpJmp",
+  "perm": "id",
+  "sig": "T1=IB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "8": {
+  "generic": "GETUPVAL",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=UB",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "11": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IBT1=T2[T1]T3=(N)+T3T4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "12": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T2[T3]T4=T2[T3-N]T5=T2[T3-N]T6=T2[T3-N]T3=T3-NT6(T5,T4,T1)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "13": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "(IC)==(N)...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "14": {
+  "generic": "LT",
+  "class": null,
+  "perm": "id",
+  "sig": "RA=RB<RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "15": {
+  "generic": "SETTABLE",
+  "class": "OpSetTable",
+  "perm": "id",
+  "sig": "RA[RB]=RC",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "16": {
+  "generic": "CALL",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=T3[T4]T5=T3[T4-N]T4=T4-NT6[T1]=T5(T2)",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "2": {
+  "generic": "TEST",
+  "class": "OpSetFEnv",
+  "perm": "id",
+  "sig": "T1=RA",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "0": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IC==N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "1": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT1=T2[T1]T3=(N)+T3T4[T3]=T1",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "5": {
+  "generic": "GETTABLE",
+  "class": "OpGetTable",
+  "perm": "id",
+  "sig": "RA=RB[RC]",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "6": {
+  "generic": "JUMPIF",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=IAT2=IBT1=T3[T1]T1...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "3": {
+  "generic": "PUSH",
+  "class": null,
+  "perm": "id",
+  "sig": "T1=T1+NT2[T1]=T3",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ },
+ "4": {
+  "generic": "POLY",
+  "class": null,
+  "perm": "id",
+  "sig": "IC==N...",
+  "kb": false,
+  "kc": false,
+  "ka": false
+ }
+}
