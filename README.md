@@ -21,3 +21,5 @@ Two layers still need a **VM simulator** (not static):
 
 1. **Polymorphic wrappers (`POLY`)**
 2. **Value-stack `PUSH`/`CALL`**
+
+credits to ux for helping me dump most of these
