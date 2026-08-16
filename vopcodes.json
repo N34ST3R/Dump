@@ -37,7 +37,18 @@
    "Add"
   ],
   "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]+Const[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBAND": {
   "opcodes": [
@@ -51,21 +62,44 @@
    "BAND"
   ],
   "override": "Stk[Inst[OP_A]]=BitBAND(Const[Inst[OP_B]],Stk[Inst[OP_C]]);\\n",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBANDC": {
   "opcodes": [
    "BAND"
   ],
   "override": "Stk[Inst[OP_A]]=BitBAND(Stk[Inst[OP_B]],Const[Inst[OP_C]]);\\n",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBANDD": {
   "opcodes": [
    "BAND"
   ],
   "override": "Stk[Inst[OP_A]]=BitBAND(Const[Inst[OP_B]],Const[Inst[OP_C]]);\\n",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBLSHFT": {
   "opcodes": [
@@ -79,21 +113,44 @@
    "BLSHFT"
   ],
   "override": "Stk[Inst[OP_A]]=BitLSHIFT(Const[Inst[OP_B]],Stk[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBLSHFTC": {
   "opcodes": [
    "BLSHFT"
   ],
   "override": "Stk[Inst[OP_A]]=BitLSHIFT(Stk[Inst[OP_B]],Const[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBLSHFTD": {
   "opcodes": [
    "BLSHFT"
   ],
   "override": "Stk[Inst[OP_A]]=BitLSHIFT(Const[Inst[OP_B]],Const[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBNOT": {
   "opcodes": [
@@ -114,21 +171,44 @@
    "BOR"
   ],
   "override": "Stk[Inst[OP_A]]=BitBOR(Const[Inst[OP_B]],Stk[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBORC": {
   "opcodes": [
    "BOR"
   ],
   "override": "Stk[Inst[OP_A]]=BitBOR(Stk[Inst[OP_B]],Const[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBORD": {
   "opcodes": [
    "BOR"
   ],
   "override": "Stk[Inst[OP_A]]=BitBOR(Const[Inst[OP_B]],Const[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBRSHFT": {
   "opcodes": [
@@ -142,21 +222,44 @@
    "BRSHFT"
   ],
   "override": "Stk[Inst[OP_A]]=BitRSHIFT(Const[Inst[OP_B]],Stk[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBRSHFTC": {
   "opcodes": [
    "BRSHFT"
   ],
   "override": "Stk[Inst[OP_A]]=BitRSHIFT(Stk[Inst[OP_B]],Const[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBRSHFTD": {
   "opcodes": [
    "BRSHFT"
   ],
   "override": "Stk[Inst[OP_A]]=BitRSHIFT(Const[Inst[OP_B]],Const[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBXOR": {
   "opcodes": [
@@ -170,97 +273,167 @@
    "BXOR"
   ],
   "override": "Stk[Inst[OP_A]]=BitXOR(Const[Inst[OP_B]],Stk[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBXORC": {
   "opcodes": [
    "BXOR"
   ],
   "override": "Stk[Inst[OP_A]]=BitXOR(Stk[Inst[OP_B]],Const[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpBXORD": {
   "opcodes": [
    "BXOR"
   ],
   "override": "Stk[Inst[OP_A]]=BitXOR(Const[Inst[OP_B]],Const[Inst[OP_C]]);",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpCall": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A]\nlocal Results = { Stk[A](Unpack(Stk, A + 1, Inst[OP_B])) };\nlocal Edx = 0;\nfor Idx = A, Inst[OP_C] do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend\n",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ],
+   [
+    "C",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpCallB2": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A]\nlocal Results = { Stk[A](Stk[A + 1]) };\nlocal Edx = 0;\nfor Idx = A, Inst[OP_C] do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend\n",
+  "mutate": [
+   [
+    "C",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpCallB0": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A]\nlocal Results = { Stk[A](Unpack(Stk, A + 1, Top)) };\nlocal Edx = 0;\nfor Idx = A, Inst[OP_C] do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend\n",
+  "mutate": [
+   [
+    "C",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpCallB1": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A]\nlocal Results = { Stk[A]() };\nlocal Limit = Inst[OP_C];\nlocal Edx = 0;\nfor Idx = A, Limit do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend\n",
+  "mutate": [
+   [
+    "C",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpCallC0": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A]\nlocal Results, Limit = _R(Stk[A](Unpack(Stk, A + 1, Inst[OP_B])))\nTop = Limit + A - 1\nlocal Edx = 0;\nfor Idx = A, Top do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend;\n",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpCallC0B2": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A]\nlocal Results, Limit = _R(Stk[A](Stk[A + 1]))\nTop = Limit + A - 1\nlocal Edx = 0;\nfor Idx = A, Top do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend;\n",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpCallC1": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A]\nStk[A](Unpack(Stk, A + 1, Inst[OP_B]))\n",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpCallC1B2": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A]\nStk[A](Stk[A + 1])\n",
   "mutate": []
  },
  "OpCallB0C0": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A]\nlocal Results, Limit = _R(Stk[A](Unpack(Stk, A + 1, Top)))\nTop = Limit + A - 1\nlocal Edx = 0;\nfor Idx = A, Top do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend;\n",
   "mutate": []
  },
  "OpCallB0C1": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A]\nStk[A](Unpack(Stk, A + 1, Top))\n",
   "mutate": []
  },
  "OpCallB1C0": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A]\nlocal Results, Limit = _R(Stk[A]())\nTop = Limit + A - 1\nlocal Edx = 0;\nfor Idx = A, Top do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend;\n",
   "mutate": []
  },
  "OpCallB1C1": {
@@ -274,28 +447,34 @@
   "opcodes": [
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A]\nStk[A] = Stk[A](Unpack(Stk, A + 1, Inst[OP_B]))\n",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpCallC2B2": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A]\nStk[A] = Stk[A](Stk[A + 1])\n",
   "mutate": []
  },
  "OpCallB0C2": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A]\nStk[A] = Stk[A](Unpack(Stk, A + 1, Top))\n",
   "mutate": []
  },
  "OpCallB1C2": {
   "opcodes": [
    "Call"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A]\nStk[A] = Stk[A]()\n",
   "mutate": []
  },
  "OpCallSpec": {
@@ -313,8 +492,11 @@
   "mutate": []
  },
  "OpClosure": {
-  "opcodes": [],
-  "override": null,
+  "opcodes": [
+   "Closure",
+   "Move"
+  ],
+  "override": "\nlocal NewProto=Proto[Inst[OP_B]];\nlocal uvlist = {};\nlocal C = Inst[OP_C];\nfor i = 1, C, 1 do\n\tInstrPoint = InstrPoint + 1;\n\tlocal pseudo = Instr[InstrPoint];\n\tif pseudo[OP_ENUM] == OP_MOVE then\n\t\tuvlist[i - 1] = {\n\t\t\tStk,\n\t\t\tpseudo[OP_B]\n\t\t};\n\telse\n        uvlist[i - 1] = Upvalues[pseudo[OP_B]]\n\tend;\n\tLupvals[(#Lupvals) + 1] = uvlist;\nend;\nStk[Inst[OP_A]] = Wrap(NewProto, uvlist);\n",
   "mutate": []
  },
  "OpClosureNU": {
@@ -383,15 +565,37 @@
    "Div"
   ],
   "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]/Const[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpDynamicCallB2C2": {
   "opcodes": [
    "Dynamic",
    "Call"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A];\nlocal B = Inst[OP_B];\nlocal Results = { Env[Const[B]](Unpack(Stk, A + 1, B)) };\nlocal Edx = 0;\nfor Idx = A, Inst[OP_C] do\n\tEdx = Edx + 1;\n\tStk[Idx] = Results[Edx];\nend;\nStk[A]=Env[Const[B]];\nprint('sup homie');\n",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ],
+   [
+    "C",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpDynamic": {
   "opcodes": [
@@ -404,43 +608,88 @@
   "opcodes": [
    "Eq"
   ],
-  "override": null,
+  "override": " if (Stk[Inst[OP_B]] == Stk[Inst[OP_C]]) then\n            InstrPoint = InstrPoint + 1;\n        end;",
   "mutate": []
  },
  "OpEqB": {
   "opcodes": [
    "Eq"
   ],
-  "override": null,
-  "mutate": []
+  "override": "if (Const[Inst[OP_B]] == Stk[Inst[OP_C]]) then\n            InstrPoint = InstrPoint + 1;\n        end;",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpEqC": {
   "opcodes": [
    "Eq"
   ],
-  "override": null,
-  "mutate": []
+  "override": "if (Stk[Inst[OP_B]] == Const[Inst[OP_C]]) then\n            InstrPoint = InstrPoint + 1;\n        end;",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpEqBC": {
   "opcodes": [
    "Eq"
   ],
-  "override": null,
-  "mutate": []
+  "override": " if (Const[Inst[OP_B]] == Const[Inst[OP_C]]) then\n            InstrPoint = InstrPoint + 1;\n        end;",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ],
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpForLoop": {
   "opcodes": [
    "ForLoop"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A];\nlocal step = Stk[A + 2];\nlocal index = Stk[A] + step;\nlocal limit = Stk[A + 1];\nlocal loops;\nif step == Abs(step) then\n\tloops = index <= limit;\nelse\n\tloops = index >= limit;\nend;\nif loops then\n\tStk[A] = index;\n\tStk[A + 3] = index;\n\tInstrPoint = Inst[OP_B];\nend;\n",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpForPrep": {
   "opcodes": [
    "ForPrep"
   ],
   "override": "local A=Inst[OP_A];Stk[A]=(Stk[A] or 0)-(Stk[A+2] or 0);InstrPoint=Inst[OP_B];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpFuncDecl1": {
   "opcodes": [
@@ -475,21 +724,39 @@
    "Lt"
   ],
   "override": "if(Const[Inst[OP_A]]>=Stk[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpGeC": {
   "opcodes": [
    "Lt"
   ],
   "override": "if(Stk[Inst[OP_A]]>=Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpGeBC": {
   "opcodes": [
    "Lt"
   ],
   "override": "if(Const[Inst[OP_A]]>=Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpGetGlobal": {
   "opcodes": [
@@ -564,14 +831,26 @@
    "Le"
   ],
   "override": "if(Stk[Inst[OP_A]]>Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpGtBC": {
   "opcodes": [
    "Le"
   ],
   "override": "if(Const[Inst[OP_A]]>Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpINTDIV": {
   "opcodes": [
@@ -585,28 +864,57 @@
    "INTDIV"
   ],
   "override": "Stk[Inst[OP_A]]=__INTDIV__(Const[Inst[OP_B]],Stk[Inst[OP_C]]);\\n",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpINTDIVC": {
   "opcodes": [
    "INTDIV"
   ],
   "override": "Stk[Inst[OP_A]]=__INTDIV__(Stk[Inst[OP_B]],Const[Inst[OP_C]]);\\n",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpINTDIVD": {
   "opcodes": [
    "INTDIV"
   ],
   "override": "Stk[Inst[OP_A]]=__INTDIV__(Const[Inst[OP_B]],Const[Inst[OP_C]]);\\n",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpJmp": {
   "opcodes": [
    "Jmp"
   ],
   "override": "InstrPoint=Inst[OP_B];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpLe": {
   "opcodes": [
@@ -627,14 +935,26 @@
    "Le"
   ],
   "override": "if(Stk[Inst[OP_A]]<=Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpLeBC": {
   "opcodes": [
    "Le"
   ],
   "override": "if(Const[Inst[OP_A]]<=Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpLen": {
   "opcodes": [
@@ -687,7 +1007,7 @@
   "opcodes": [
    "LoadConstList"
   ],
-  "override": null,
+  "override": "\n        local off = Inst[OP_A];\n        for i = off, Inst[OP_C] do\n            Stk[i] = Const[i - off + 1];\n        end;\n        --InstrPoint = InstrPoint + inst.len - 1\n        ",
   "mutate": [
    [
     "B",
@@ -729,14 +1049,26 @@
    "Lt"
   ],
   "override": "if(Stk[Inst[OP_A]]<Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpLtBC": {
   "opcodes": [
    "Lt"
   ],
   "override": "if(Const[Inst[OP_A]]<Const[Inst[OP_C]])then InstrPoint=InstrPoint+1;else InstrPoint=Inst[OP_B];end;",
-  "mutate": []
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpMod": {
   "opcodes": [
@@ -776,7 +1108,18 @@
    "Mod"
   ],
   "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]%Const[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpMove": {
   "opcodes": [
@@ -789,7 +1132,7 @@
   "opcodes": [
    "MoveList"
   ],
-  "override": null,
+  "override": "\n        local A = Inst[OP_A];\n        local B = Inst[OP_B];\n        local diff = Inst[OP_C];\n        for i = A, B do\n            Stk[i] = Stk[i - diff];\n        end;\n        --InstrPoint = InstrPoint + (B - A) - 1;\n        ",
   "mutate": [
    [
     "B",
@@ -836,7 +1179,18 @@
    "Mul"
   ],
   "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]*Const[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpMutated": {
   "opcodes": [],
@@ -848,35 +1202,74 @@
    "NOP"
   ],
   "override": "",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpNe": {
   "opcodes": [
    "Eq"
   ],
-  "override": null,
+  "override": " if (Stk[Inst[OP_B]] ~= Stk[Inst[OP_C]]) then\n            InstrPoint = InstrPoint + 1;\n        end;",
   "mutate": []
  },
  "OpNeB": {
   "opcodes": [
    "Eq"
   ],
-  "override": null,
-  "mutate": []
+  "override": "if (Const[Inst[OP_B]] ~= Stk[Inst[OP_C]]) then\n            InstrPoint = InstrPoint + 1;\n        end;",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpNeC": {
   "opcodes": [
    "Eq"
   ],
-  "override": null,
-  "mutate": []
+  "override": "if (Stk[Inst[OP_B]] ~= Const[Inst[OP_C]]) then\n            InstrPoint = InstrPoint + 1;\n        end;",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpNeBC": {
   "opcodes": [
    "Eq"
   ],
-  "override": null,
-  "mutate": []
+  "override": "  if (Const[Inst[OP_B]] ~= Const[Inst[OP_C]]) then\n            InstrPoint = InstrPoint + 1;\n        end;",
+  "mutate": [
+   [
+    "C",
+    "-=",
+    255
+   ],
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpNewStk": {
   "opcodes": [
@@ -958,7 +1351,18 @@
    "Pow"
   ],
   "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]^Const[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpPrepArgs": {
   "opcodes": [
@@ -1147,41 +1551,59 @@
    "Replay"
   ],
   "override": " if Inst[OP_A] ~= 0 then InstrPoint = InstrPoint + Inst[OP_B]; Inst[OP_B] = 0; end;",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpReplayJmp": {
   "opcodes": [
    "ReplayJmp"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nif Inst[OP_A] == 0 then\n    InstrPoint = InstrPoint + Inst[OP_B];\n    local instrPointer = Inst[InstrPoint + Inst[OP_C]];\n    instrPointer[OP_A] = 1;\n    Inst[OP_A] = 1;\n --print('PREPARE REPLAY JUMP');\nend\n",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpReturn": {
   "opcodes": [
    "Return"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A];\ndo return Unpack(Stk, A, A + Inst[OP_B]) end;\n",
+  "mutate": [
+   [
+    "B",
+    "-=",
+    2
+   ]
+  ]
  },
  "OpReturnB2": {
   "opcodes": [
    "Return"
   ],
-  "override": null,
+  "override": "\ndo return Stk[Inst[OP_A]] end\n",
   "mutate": []
  },
  "OpReturnB3": {
   "opcodes": [
    "Return"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A];\ndo return Stk[A], Stk[A + 1] end\n",
   "mutate": []
  },
  "OpReturnB0": {
   "opcodes": [
    "Return"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A];\ndo return Unpack(Stk, A, Top) end;",
   "mutate": []
  },
  "OpReturnB1": {
@@ -1196,28 +1618,52 @@
    "ReverseConstBInt"
   ],
   "override": "Const[Inst[OP_B]] = -Const[Inst[OP_B]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpReverseConstC": {
   "opcodes": [
    "ReverseConstCInt"
   ],
   "override": "Const[Inst[OP_C]] = -Const[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpReverseStkC": {
   "opcodes": [
    "ReverseStkCInt"
   ],
   "override": "Stk[Inst[OP_C]] = -Stk[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpReverseStkB": {
   "opcodes": [
    "ReverseStkBInt"
   ],
   "override": "Stk[Inst[OP_B]] = -Stk[Inst[OP_B]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpSelf": {
   "opcodes": [
@@ -1346,7 +1792,18 @@
    "SetTable"
   ],
   "override": "Stk[Inst[OP_A]][Const[Inst[OP_B]]]=Const[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpSetTop": {
   "opcodes": [
@@ -1400,30 +1857,51 @@
    "Sub"
   ],
   "override": "Stk[Inst[OP_A]]=Const[Inst[OP_B]]-Const[Inst[OP_C]];",
-  "mutate": []
+  "mutate": [
+   [
+    "B",
+    "-=",
+    255
+   ],
+   [
+    "C",
+    "-=",
+    255
+   ]
+  ]
  },
  "OpSuperOperator": {
-  "opcodes": [],
+  "opcodes": [
+   "GetObfuscated"
+  ],
   "override": "",
   "mutate": []
  },
  "OpTForLoop": {
-  "opcodes": [],
-  "override": null,
+  "opcodes": [
+   "TForLoop"
+  ],
+  "override": "\nlocal A = Inst[OP_A];\nlocal C = Inst[OP_C];\nlocal Offset = A + 2;\nlocal Result = {\n\tStk[A](Stk[A + 1], Stk[Offset])\n};\nfor Idx = 1, C do\n\tStk[Offset + Idx] = Result[Idx];\nend;\nlocal R = Stk[A + 3];\nif R then\n\tStk[Offset] = R;\nelse\n\tInstrPoint = InstrPoint + 1;\nend;\n",
   "mutate": []
  },
  "OpTailCall": {
   "opcodes": [
    "TailCall"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A];\ndo return Stk[A](Unpack(Stk, A + 1, Inst[OP_B])) end;",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpTailCallB0": {
   "opcodes": [
    "TailCall"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A];\ndo return Stk[A](Unpack(Stk, A + 1, Top)) end;\n",
   "mutate": []
  },
  "OpTailCallB1": {
@@ -1479,14 +1957,20 @@
   "opcodes": [
    "VarArg"
   ],
-  "override": null,
-  "mutate": []
+  "override": "\nlocal A = Inst[OP_A];\nlocal B = Inst[OP_B];\nfor Idx = A, B do\n\tStk[Idx] = Vararg[Idx - A];\nend;",
+  "mutate": [
+   [
+    "B",
+    "+=",
+    null
+   ]
+  ]
  },
  "OpVarArgB0": {
   "opcodes": [
    "VarArg"
   ],
-  "override": null,
+  "override": "\nlocal A = Inst[OP_A];\nTop = A + Varargsz - 1;\nfor Idx = A, Top do\n\tlocal VA = Vararg[Idx - A];\n\tStk[Idx] = VA;\nend;",
   "mutate": []
  }
 }
