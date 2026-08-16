@@ -1,0 +1,2394 @@
+=== string constants (1802 unique) ===
+HELLO
+
+	
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						The member count of getrenv()._G mismatched.
+						
+						Expected count: 963
+
+						Retrieved count: %s
+
+					
+
+		local a = Instance.new("Part", workspace)
+		a.Name = "undetected"
+		a.Anchored = true
+		a.CFrame = CFrame.new(0, -200, 0)
+	
+
+
+								hookfunction L -> C -> L returned an invalid error message (err1), expected "missing argument #1 to 'resume', got:
+
+								%s
+
+							
+
+
+								hookfunction L -> C -> L returned an invalid error message (err2), expected "missing argument #1 to 'resume', got:
+
+								%s
+
+							
+
+
+						Failed to find one or more environment members from the "Animate" script.
+
+						getsenv(animate) return:
+
+						%s
+
+
+					
+
+
+						Failed to find one or more environment members from the "lefty" script.
+
+						getsenv(lefty) return:
+
+						%s
+
+					
+
+
+						Returned one or more wrong constants from a script's closure using this:
+						debug.getconstants(getscriptclosure(game:GetService("ReplicatedStorage").Folder.Folder.Script))
+
+						Output returned:
+
+						%s
+					
+
+
+						The retrieved debug name of an inactive proto did not match with "`because_hes_unemployed`".
+
+						Retrieved name:
+
+						%s | expected: 'because_hes_unemployed'
+
+						Retrieved currentline:
+
+						%s | expected: 52
+
+						Retrieved is_vararg:
+
+						%s | expected: false
+
+						Retrieved source:
+
+						%s | expected: ReplicatedFirst.Hacker
+
+					
+
+
+						The value or types of members inside getrenv() returned a mismatch. The executor likely fakes their getrenv.
+						
+						getrenv() output:
+
+						%s
+						
+					
+
+i did so many stuff for this community, im
+just keeping my identity anonymous ð¤·ââï¸ 
++ no one really knows my background
+so everyone just thinks i am a stupid mf
+but well
+i just ignore that and do my stuff
+						
+ 
+ '
+ (got 
+ -> 
+ 0_void, Dottik, Pixeluted, bytevector(ð¥­), s.irius, citam.
+ : 
+ = 
+ ] 
+ as a 
+ instead of a headers table
+ instead of a response table
+ L=OL_SO?_?T=RU=E=_==SO_S=IG=MER
+ seconds
+ seconds to test
+ succ
+ took 
+ ê®ê§ 
+"
+"degloved" *speed shocked gif*
+#
+%
+%d
+%q
+%s
+' 
+' field
+'setreadonly' is needed in order to test
+(
+)
+) [discord.gg/yGNzDrvbF5]
++6YbFA==
+,
+,
+
+, got: 
+,m
+-
+--.
+-.
+-1
+.
+..
+....
+.....
+......
+.......
+........
+.7z
+.bat
+.cab
+.cmd
+.com
+.cpl
+.exe
+.hta
+.img
+.inf
+.iso
+.js
+.jse
+.lnk
+.msc
+.msi
+.msp
+.pif
+.ps1
+.psd1
+.rar
+.reg
+.scf
+.scr
+.url
+.vbe
+.vbs
+.wsf
+.wsh
+.xml
+.zip
+/
+0
+000PPP000
+0aZrES4d0cSjKw==
+0tXwY2hG
+0x%x+
+1
+1, 0
+1, 0, 0
+1, 1, 0
+1ONUKwRb
+2
+2805b5f409ac4b518afd98e124df01b7
+2ga0BtoGsgbaBrQG
+3
+3f2412ef43204ed094091e7a6278cd8f
+4
+43e72d8b730a4fbaa11d104ee47643be
+4z1lZLg1gQ7etw==
+50
+5SVE9mt/SC+16KbiEzyP+xOiJRUZSzs9LSHBX3ddMNWRyVvIEt89M6KWcmwV
+6+p/jwIlp0AEyQ==
+69:69:69 -- ð Passed the test with 100% success rate (90 out of 77)
+6e35152c985744b5bea206aa4ed571aa
+6uBrrwYwtGYS2A==
+6w==
+7
+76064aa698ed49a492e07dd00d5d2cfb
+8f9201aefae24ea99a5976e5064edfb7
+8j/+ayGTTRUObGRJTH4=
+9/2wAVQ2r7E=
+913d4cf126384cb1979437343742de58
+:
+: 
+:Pboi
+=
+=0
+??? What are you doing bro ð­ð­
+[
+[ MISMATCH. type should be 
+[%-%d]
+[%q]
+[+-]
+[1] - Please execute sUNC in the dedicated place. You can find it on our Discord server [discord.gg/yGNzDrvbF5]
+[^%.]+
+[DEBUG] Foreign thread: %s; Main thread: %s,
+ timeout: %s
+[DEBUG]: 
+[FUNC IgnoreExec] Returned more than 0 possible functions for a non-existant function
+[FUNC UPVALS] Failed to retrieve a function with the upvalue 0/0
+[FUNC UPVALS] Failed to retrieve a function with the upvalue 0/0.
+[FUNC] Failed to retrieve a function with a constant which equals to NaN[1].
+[FUNC] Failed to retrieve a function with the constant -0
+[FUNC] Failed to retrieve a function with the constant -0.
+[FUNC] Failed to retrieve a function with the constant which equals to NaN[2].
+[FUNC] Retrieved less than one viable option
+[FUNC] Retrieved more than one viable option
+[GETSTACK] Index errored:
+[GETSTACK] Index not in stack[2]
+[GETSTACK] Index not in stack[3]
+[KEYS] Failed to find a table with specified keys
+[KVPairs] Failed to find a table with specified KeyValue pairs[1]
+[KVPairs] Failed to find a table with specified KeyValue pairs[2]
+[METATABLE] Failed to find a table with the specified metatable
+[Name] Failed to find a function by name
+[SETSTACK] Failed to set to 4, 22
+[VALUES] Failed to find a table with specified value[1]
+[VALUES] Failed to find a table with specified value[2]
+[ÿ
+]
+\
+]
+^[0-9a-fA-F]+$
+_
+__call
+__concat
+__index
+__iter
+__metatable
+__namecall
+__OBJECT_EXISTS
+__tostring
+__type
+__zxc
+_ENV
+_G
+_parsedManifest
+_VERSION
+`Enabled` returned true for a disconnected connection
+`return_one` should be false by default and returning a table
+a
+A table and its metatable should not be equal to eachother[1]
+A table and its metatable should not be equal to eachother[2]
+A table and its metatable should not be equal to eachother[3]
+a4cf7a92ac13470589012c321bc81d8b
+Aaaand we're ud ash ððð¥ð¥
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+abf8eaf8a8b941de8f39a7a48227d20f
+Accessory (pillow)
+Active
+Actual size isn't matching with 'gethiddenproperty' 
+AddTag
+AeroMeshData
+aiosinguraRepr1z4,nuare cine sa te ascunda
+Allowed an invalid drawing to be made from improper argument
+Allowed connection to an invalid server - 'ws://' 
+Allowed file with potentially malicious extension to be created: 
+amogusLikesBananasAndOranges
+Anchored
+AnchorPoint
+andr?eea.,?/1
+ANG3LJ0RDAN
+Animate
+ap
+appendfile
+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A5QAAAN0AAABTAQAAVQEAAOUAAAAbAQAAVQEAAOIAAADlAAAA4gAAAOQAAADlAAAA6QAAAOMAAADiAAAA6AAAAOIAAABWAQAAVgEAAOIAAABVAQAAVgEAAOoAAADoAAAAVwEAAOoAAABWAQAAWAEAAOoAAABXAQAAWQEAAFoBAABbAQAAWgEAAFYBAABbAQAAVwEAAFYBAABYAQAAVgEAAFoBAABYAQAAXAEAAFgBAABZAQAAWgEAAFkBAABYAQAA6gAAAFgBAADrAAAA8AAAAO8AAABYAQAA7wAAAOsAAABYAQAA8AAAAFgBAABcAQAAXQEAAF4BAABfAQAAXwEAAGABAABdAQAAYAEAAGEBAADyAAAAYQEAAPMAAADyAAAA8wAAAGABAABfAQAAYQEAAGABAADzAAAA9AAAAPMAAAD3AAAA9wAAAPMAAABfAQAAXwEAAGIBAAD3AAAAXgEAAGMBAABfAQAAYwEAAGQBAABfAQAAZAEAAGIBAABfAQAAZAEAAPcAAABiAQAA9wAAAGUBAAD2AAAAZQEAAGYBAAD2AAAAZgEAAPoAAAD2AAAA+gAAAGYBAABkAQAAZgEAAGUBAABkAQAAZQEAAPcAAABkAQAAZAEAAGcBAAD6AAAAZwEAAGgBAAD6AAAAaAEAAGcBAABpAQAAZwEAAGQBAABpAQAAaAEAAPgAAAD6AAAACAEAAAoBAAAJAQAACQEAAGoBAAAHAQAAagEAAA0BAAAHAQAAagEAAAkBAABrAQAAbAEAAG0BAABuAQAAbgEAAGsBAABsAQAADQEAAGoBAABrAQAADQEAAGsBAABuAQAADAEAAA8BAAASAQAADgEAAA8BAAAMAQAADwEAAA0BAAASAQAAEgEAAA0BAABuAQAAbgEAAG8BAAASAQAAbQEAAG8BAABuAQAAbwEAABUBAAASAQAAFQEAABQBAAASAQAAcAEAAHEBAAByAQAAcAEAAHMBAAAkAQAAcwEAACIBAAAkAQAAIgEAAHMBAAByAQAAcwEAAHABAAByAQAAcgEAAHQBAAAiAQAAdAEAAHUBAAAiAQAAdQEAABwBAAAiAQAAHAEAAHUBAAAaAQAAdQEAAHQBAAAaAQAAdAEAAHIBAAAaAQAAGgEAAFUBAAAbAQAAWwEAAFUBAAAaAQAAWwEAAFYBAABVAQAAcQEAAHYBAAByAQAAdgEAABoBAAByAQAAdgEAAFsBAAAaAQAAdwEAAFsBAAB2AQAAeAEAAHYBAABxAQAAeQEAAHcBAAB4AQAAeAEAAHcBAAB2AQAAdwEAAFkBAABbAQAAegEAAFkBAAB3AQAAXAEAAFkBAAB6AQAAegEAAHcBAAB5AQAAewEAAGwBAABrAQAAbAEAAHwBAABtAQAAfQEAAH4BAAB/AQAAfQEAAGkBAABjAQAAgAEAAGkBAAB9AQAAYwEAAH4BAAB9AQAAYwEAAF4BAAB+AQAAXgEAAF0BAAB+AQAAaQEAAGQBAABjAQAA
+aqXWQHlD3w==
+ArcHandles
+Archivable
+areyoutheonemymomtoldmenottotalkto?
+Argument return mismatch[1]
+Argument return mismatch[2]
+asivreasamorinaintesadevininutil
+AspectRatio
+assert
+AtomicBinding
+attempt to yield across metamethod/C-call boundary
+Attempting to unhook
+awuuu
+Axes
+Axis
+b
+BackgroundColor3
+BackgroundTransparency
+Backpack
+Bad implementation of the function, not made in C
+base64_decode
+base64_encode
+base64decode
+base64encode
+Basic loadstring test failed: 
+bAâmBðµoâ§zle==ÆanÎanÊle<â wHiâ°râiâgig
+BBB
+because_hes_unemployed
+beeeb
+beepbeepbeepbeep
+Begging on everyone's knees to be popular
+bimbumbumbambam
+BindableEvent
+BindableFunction
+bit32
+blablabla
+BlathÎµrÈ¿âðiÏeÃ´ðwhÎ±Æ¬cÂ¥É¦@#â¥aá­alâ¸lá»ð±âï¸
+bleepbloop
+block_next
+block_set_counter
+Body
+BodyVelocity
+Boi so tuff rn
+Boi what sigma you doing ðð¤
+boidontbemean
+bomlol
+boob/../fbi_just_take_all_my_shit.txt
+boolean
+boom
+boopbeep
+bor
+BorderColor3
+BorderSizePixel
+BOY_DONT_PLAY_WITH_ME
+boyyywhattheflop
+BrickColor
+bro, hello? - flushed
+brotzatza there's no function like this
+buffer
+buffers
+Buffers are not supported on this executor[1]!
+Buffers are not supported on this executor[2]!
+Buffers are not supported on this executor[3]!
+Buffers are not supported on this executor[4]!
+bxor
+byte
+C
+c3283837bdbe494685cbd840999ff440
+c4a5d70aaacc43f4aacf984d0bc57b23
+caastaerapdecoltublocului+?dinbucureshti
+cache
+cache.invalidate
+cache.iscached
+cache.replace
+Can't test due to 'clonefunction' not working reliably
+Can't test due to 'debug.getconstant' not working reliably
+Can't test due to 'debug.getstack' not working reliably
+Can't test due to 'getfunctionhash' not working reliably
+Can't test due to 'getgc' not working reliably
+Can't test due to 'getrawmetatable' not working reliably
+Can't test due to 'getsenv' not working reliably
+Can't test due to 'hookfunction' not working reliably
+Can't test due to 'setscriptable' not working reliably
+Can't test due to 'setthreadidentity' not working reliably
+Can't test due to cache.invalidate not working reliably
+Can't test due to getrawmetatable not working properly
+Can't test due to getreg being nil
+Can't test due to hookfunction not working reliably
+Can't test due to setreadonly not working properly
+Can't verify due to 'base64_decode' not working reliably
+Can't verify due to 'gethiddenproperty' not working reliably
+Can't verify due to 'getscriptbytecode' not working reliably
+Can't verify due to 'writefile' or 'isfile' not working reliably
+Can't verify due to cloneref not working reliably
+cancel
+CAND_MA_IA_FLAMA
+CandBagamiasMana=inpula,facfilozofieinrime_?1 = 1 + 
+capulapeste
+CatalogSearchParams
+CatNeMaiPrivim?
+CellId
+Center
+CFrame
+chacha20_xor
+char
+character
+Character
+checkcaller
+ChildAdded
+chopped af ð¥ð¥ð¥ð¥
+Circle
+ClassName
+clear
+ClearAllChildren
+cleardrawcache
+cleardrawcache is needed to perform this test correctly
+ClearTextOnFocus
+ClickDetector
+Client
+ClientLog
+Clone
+clone
+Cloned function was affected when hooking original[1]
+Cloned function was affected when hooking original[2]
+Cloned instances shouldn't equal
+clonefunction
+cloneref
+close
+Close
+Closure didn't return the same value as original
+Closures should differ
+collectgarbage
+CollectionService
+CollisionGroup
+Color
+Color3
+ColorSequence
+ColorSequenceKeypoint
+CommonUtils
+communicating
+Compared instances cloned with cloneref should be the same under 'compareinstances' 
+compareinstances
+compareinstances approved invalid references
+compareinstances is needed in order to test
+compatible_brands
+Completed
+Compressed output was bigger or equal to the original
+concat
+connect
+Connect
+Connection shouldn't exist after firing once
+Connection was triggered after being disabled
+conspiracytheory==bannaana==dyn==orange?
+Constants
+Content
+Content 1
+Content 2
+Content-Length
+content-length
+Contribu
+Contributors: vvultt, GRH, 0_void, Dottik, citam.
+coolfunc
+coolfunc2
+coolfunc3
+coolfunc4
+coolfunc5
+Copied to clipboard!
+copy
+CoreGui
+CorePackages
+CornerRadius
+coroutine
+Couldn't decompress into expected string
+Couldn't detect the new Drawing
+Couldn't determine a rendered object
+Couldn't determine if the function is an exec-closure
+Couldn't determine if the function is lclosure
+Couldn't determine if the table is read-only
+Couldn't determine the magnitude between the Drawing and another object
+Couldn't determine whether the property was set scriptable (Timed out)
+Couldn't fetch a 'Script' with RunContext set to Client and parented to nil
+Couldn't fetch a needed value
+Couldn't fetch a nil instance
+Couldn't fetch a script parented to nil
+Couldn't fetch a string from the bytecode[1]
+Couldn't fetch a string from the bytecode[2]
+Couldn't fetch a string from the bytecode[3]
+Couldn't fetch the needed value
+Couldn't fetch the script's bytecode
+Couldn't find a constant from the script's closure[1]
+Couldn't find a constant from the script's closure[2]
+Couldn't find a constant from the script's closure[3]
+Couldn't find a game function
+Couldn't find a loaded module[1]
+Couldn't find a loaded module[2]
+Couldn't find the debug table, so it was set to default. To get the full script, join our Discord server: [discord.gg/yGNzDrvbF5] :)
+Couldn't find the needed value inside the output
+Couldn't fire the click detector
+Couldn't fire the signal successfully
+Couldn't fire the signal successfully [2]
+Couldn't get a value from the loadstring result
+Couldn't hook the function and change the value
+Couldn't identify changed hidden property through 'gethiddenproperty' 
+Couldn't load the decompiled output and retrieve a value
+Couldn't match expected bytes with the output
+Couldn't match listed files with expected
+Couldn't match loaded output to expected
+Couldn't match output with expected
+Couldn't match returned SharedString with expected[2]
+Couldn't match with expected output
+Couldn't read an existing file with content
+Couldn't restore a function back to original
+Couldn't retrieve '__OBJECT_EXISTS' as bool
+Couldn't retrieve an existing member of the reference
+Couldn't retrieve an expected stack value from a foreign thread
+Couldn't retrieve an output (Timed out)
+Couldn't retrieve an upvalue from the script's function
+Couldn't retrieve some constants from the decompiled output
+Couldn't retrieve the correct constant(s) from a script's closure
+Couldn't retrieve the correct constants from a script's function
+Couldn't retrieve the correct existence of the drawing using __OBJECT_EXISTS
+Couldn't retrieve the correct existence of the drawing[1]
+Couldn't retrieve the correct existence of the drawing[2]
+Couldn't retrieve the correct value for compareinstances[1]
+Couldn't retrieve the correct value for compareinstances[2]
+Couldn't retrieve the expected changed property
+Couldn't return a running script parented to a fake actor
+Couldn't set the identity to verify capability[1]
+Couldn't set the identity to verify capability[2]
+Couldn't set the identity to verify capability[3]
+Couldn't set the identity to verify capability[4]
+Couldn't set the identity to verify capability[5]
+Couldn't set the upvalue of a script's function
+Couldn't successfully load an mp3 custom asset
+Couldn't trigger the touch signal
+counter
+CP1
+CP10
+CP2
+CP3
+CP4
+CP5
+CP6
+CP7
+CP9
+create
+Create
+crypt
+Cube.012Accessory
+Cubic
+CurrentCamera
+currentline
+Cute Black Circle Glasses (Fits Kemono Heads)
+cuzAfb44zpUubZAlcQ==
+cwazybwo
+d
+d8613ac2e0db4852809427275094589d
+Data Ping
+DataCost
+DateTime
+debug
+debug.getconstant
+debug.getconstants
+debug.getconstants is needed in order to test
+debug.getinfo
+debug.getproto
+debug.getprotos
+debug.getstack
+debug.getupvalu
+debug.getupvalue
+debug.getupvalues
+debug.getupvaluÐµ
+debug.info is needed in order to test
+debug.setconstant
+debug.setstack
+debug.setupvalue
+decompile
+Default
+defer
+Defer
+delay
+delaybetweentests
+delfile
+delfolder
+DescendantAdded
+deserialize_table
+Destroy
+Destroy threw an error
+DevConsoleMaster
+DevConsoleUI
+DevConsoleWindow
+df
+df5e8b68472047b69489f9da35e84132
+Did not return a function for a LuaConnection[2]
+Did not return a number
+Did not return a table with 
+Did not return a table with a '
+Did not return a thread for a LuaConnection[2]
+Didn't error on passing C-closures
+Didn't return a string value after compression
+Didn't return a table value
+Didn't return a valid `what` field [2]
+Didn't return a valid field value[1]
+Didn't return a valid field value[2]
+Didn't return a valid field value[3]
+Didn't return the correct byte[1]
+Didn't return the correct byte[2]
+Didn't return the correct byte[3]
+Didn't return the correct value for 'is_vararg' 
+Didn't return the correct value from 'func' 
+Didn't return the correct value from a script's proto
+Didn't return the name as a string
+Didn't return the needed value[1]
+Didn't return the needed value[2]
+Didn't return the same value
+Different constants should not have the same hash[1]
+Different constants should not have the same hash[2]
+Different instructions should not have the same hash
+Different metatable should not equal to eachother
+directory
+Disable
+Disconnect
+Disconnect()
+display
+dkplkhaljivcumn?
+DockWidget
+Drawing
+Drawing container: %s, Container's parent: %s
+Drawing.Fonts
+Drawing.new
+DTC
+e
+E3PNVjnTb7XHUw==
+e656bba7b6b3485c844bea5842aa53c9
+EasingDirection
+EasingStyle
+ee25bbec045f451295021af0341fd70d
+eeeeeeeeeeeeeeeeeeee
+elaborateonthispastingphenomenon
+elapsed
+elapsedTime
+ElapsedTime
+Empty
+Enable
+Enabled
+Encoded output didn't match expected output
+Encountered an error trying to get a dependency:
+Encountered an error trying to hook `C -> C` Closures: 
+Encountered an error trying to hook C -> L Closures: 
+Encountered an error trying to hook C -> NC Closures: 
+Encountered an error trying to hook L -> C Closures: 
+Encountered an error trying to hook L -> NC Closures: 
+Encountered an error trying to hook NC -> C Closures: 
+Encountered an error trying to hook NC -> L Closures: 
+Encountered an error trying to make a request: 
+Encountered an error trying to restore a L -> NC hook: 
+Encountered an error trying to restore a NC -> L hook: 
+Encountered an error while trying to connect to the websocket: 
+Enum
+Enum.FormFactor.Brick
+Environment of the cloned function and original shouldn't differ
+Environment of the cloned function differs[1]
+Environment of the cloned function differs[2]
+error
+espr?esor?
+Event
+Everyone must GetDescendants of game ððð[1]
+Everyone must GetDescendants of game ððð[2]
+expand 32-byte k
+expected
+Expected ':' at position 
+Expected string key at position 
+Extra Udness Engaged ð¥ð¥
+extradebugprints
+f
+Faces
+Failed
+Failed the complicated loadstring test. You won't be able to execute big-content scripts (e.g: DEX v4)
+Failed the simple loadstring test
+Failed to authenticate. This usually means that your exploit doesn't support sUNC. If you have any questions regarding this, let us know [discord.gg/yGNzDrvbF5]
+Failed to change the metatable
+Failed to create a file using 'Example/../Example.txt'
+Failed to decode JSON from the complicated URL
+Failed to determine a cclosure made from 'newcclosure'
+Failed to determine a native cclosure
+Failed to determine a non-cclosure
+Failed to do simple math
+Failed to enable back a connection after disabling
+Failed to encode a string with null bytes
+Failed to extract memory address from table
+Failed to fetch a value from the script's env[1]
+Failed to fetch a value from the script's env[2]
+Failed to fetch an instance outside of 'game' 
+Failed to fetch the environment of a Script with script global set to nil[1]
+Failed to fetch the environment of a Script with script global set to nil[2]. Error: 
+Failed to find a .shared value
+Failed to find a C-Connection (Idled)
+Failed to find a file using 'Example/../Example.txt'
+Failed to find a file using listfiles
+Failed to find a folder using listfiles
+Failed to fire a :Once connection[1]
+Failed to fire a proximityprompt on the server
+Failed to fire a proximityprompt on the server.
+Failed to fire multiple signals with the proper arguments[1]
+Failed to fire multiple signals with the proper arguments[2]
+Failed to fire multiple signals with the proper arguments[3]
+Failed to fire multiple signals with the proper arguments[4]
+Failed to fire with 'MouseClick' as 3rd argument
+Failed to fire with 'MouseHoverEnter' as 3rd argument
+Failed to fire with 'RightMouseClick' as 3rd argument
+Failed to fully restore a hooked function
+Failed to get a binary string hidden property value
+Failed to get a foreign thread
+Failed to get a valid return from and 'old' function
+Failed to get melon result
+Failed to get the hash of a Script with RunContext set to Client
+Failed to hook a hook
+Failed to hook C -> C Closures
+Failed to hook C -> L Closures
+Failed to hook C -> NC Closures
+Failed to hook L -> C Closures
+Failed to hook L -> NC Closures
+Failed to hook NC -> C Closures
+Failed to hook NC -> L Closures
+Failed to list files in the current directory[1]
+Failed to load a dependancy
+Failed to make a file and a directory using writeifle
+Failed to obtain a return value
+Failed to parse JSON response body, error: 
+Failed to receive a wanted message from the server
+Failed to replace the instance cache with a new one
+Failed to restore a C -> C hook back to original
+Failed to restore a C -> C hook back to original[1]
+Failed to restore a C -> C hook back to original[2]
+Failed to restore a C -> C hook back to original[3]
+Failed to restore a C -> L hook back to original[1]
+Failed to restore a C -> L hook back to original[2]
+Failed to restore a C -> NC hook back to original[1]
+Failed to restore a L -> C hook back to original[1]
+Failed to restore a L -> C hook back to original[2]
+Failed to restore a L -> NC hook
+Failed to restore a NC -> L hook
+Failed to restore an L -> C hook back to original[1]
+Failed to restore an L -> C hook back to original[2]
+Failed to restore an L -> C hook back to original[3]
+Failed to restore an NC -> C hook back to original[1]
+Failed to restore NC[1] -> NC[2] -> NC[1]. [1]
+Failed to restore NC[1] -> NC[2] -> NC[1]. [2]
+Failed to retrieve a closed signal
+Failed to retrieve a destroyed script instance with its `Script` global set to junk.
+Failed to retrieve a function from a connection made by the current thread
+Failed to retrieve a function to test
+Failed to retrieve a property from the replaced instance
+Failed to retrieve a proto from a game function
+Failed to retrieve a thread from a :Wait connection
+Failed to retrieve a userdata object
+Failed to retrieve a value from a metatable
+Failed to retrieve active proto(s)
+Failed to retrieve an inactive proto[1]
+Failed to retrieve an inactive proto[2]
+Failed to retrieve correct debug information on an inactive proto
+Failed to retrieve needed functions in order to test
+Failed to retrieve the closure from a LocalScript
+Failed to retrieve the closure from a ModuleScript
+Failed to retrieve the closure from a Script with RunContext set to Client
+Failed to retrieve the environment of a game script
+Failed to retrieve the value from the script's function
+Failed to set a constant and retrieve its value[1]
+Failed to set a constant and retrieve its value[2]
+Failed to set a metatable on a locked metatable
+Failed to set back the __type of an instance. ( Instance -> Signal -> Instance ) 
+Failed to set the render's color property
+Failed to set the render's property
+Failed to set the value in the frozen table
+Failed to successfully hook a script's function
+Failed to trigger the :Fire signal
+Failed to trigger the connection after re-enabling the connection
+Failed to trigger the connection by calling its function
+Failed to use clonefunction on a newcclosure
+Failed to use cloneref without being detected
+Failed to use cloneref without being detected.
+Failed. Attempting to unhook
+FakeGrimReaper
+fall
+false
+fawfawfaw
+fbi_just_take_all_my_shit.txt
+Fetched a non-nil instance
+Fetched a script with a thread that's no longer running
+FF
+FF2
+ffa
+fil.txt
+File exists after deleting
+filesys
+FillDirection
+Filled
+filtergc
+find
+FindFirstChild
+FindFirstChildWhichIsA
+Fingerprint
+fingerprint
+Finished basic loadstring testing
+Finished complicated loadstring URL testing
+finished meloning
+Finished simple loadstring URL testing
+Finished the test in 
+Fire
+fireclickdetector
+fireproximityprompt
+fireproximitypromt
+FireServer
+firesignal
+firetouchinterest
+First argument did not match when triggering :Fire
+First I go whip out the bost
+FlagUtil
+floops the flip out on floopy doopy
+floor
+FNRTMuMTAw
+Folder
+Folder exists after deleting
+Font
+Foot
+foreach
+ForeignState
+forgives_flushed
+format
+formFactorRaw
+Found a syntax error in the decompiled output: 
+Found like break at the end of base64 encoded string
+Found more than one matching elements for looked UI
+Found the caller in the callstack when using :Fire()
+Found the caller in the callstack while firing the signal
+Frame
+FreakyBox
+freeze
+From
+fromRGB
+fromstring
+Front
+Fully loaded jag
+func
+function
+Function
+Function didn't return hooked value
+Function didn't return the needed values in a pcall
+Function is missing with every alias
+function is nil
+Function2_
+Functions should not be the same
+Functions' hash should differ due to no instruction difference
+game
+GameplayPaused
+gcinfo
+geeked
+generic namecall hook detected
+GET
+GetAttribute
+getcallbackvalu
+getcallbackvalue
+getcallingscript
+getconnections
+getconnections-1
+getconnections-10
+getconnections-2
+getconnections-3
+getconnections-4
+getconnections-5
+getconnections-6
+getconnections-7
+getconnections-8
+getconnections-8.5
+getconnections-9
+getconstant
+getconstants
+getcustomasset
+GetDescendants
+getfenv
+getfunctionhash
+getfunctionhash is needed in order to test
+getgc
+getgc is needed in order to test
+getgenv
+getgenv is needed in order to test
+gethiddenproperty
+gethui
+getinfo
+getinstances
+getloadedmodules
+getmetatable
+getnamecallmethod
+getnilinstances
+GetPassedFuncs
+GetPropertyChangedSignal
+getproto
+getprotos
+getrawmetatable
+getrawmetatable is not working properly, can't test
+getreg
+getrenderproperty
+getrenderproperty is needed to perform this test correctly
+getrenv
+getrunningscripts
+getscriptbytecode
+getscriptbytecode is not working reliably, can't test
+getscriptclosure
+getscriptclosure is needed in order to test
+getscriptfromthread
+getscripthash
+getscripts
+getsenv
+getsenv and newcclosure is needed in order to test
+getsenv is needed in order to test
+GetService
+getstack
+getthreadidentity
+getting rich like this is a hobby
+getTool
+getToolAnim
+getupvalue
+getupvalues
+GetValue
+gI/ZdTFfnIM=
+Global
+Global environment is not shared properly
+Global environment is not shared properly[2]
+gmatch
+GMClMBwgqw==
+gMr5PrpWmCGiHA9Y
+goatis_vs_spaghetti_stood_no_chance
+groksays
+gsub
+gvmwu?tiwantwhoami?
+gwentsotsk
+gÐµm
+h
+Hand
+Handle
+harhar
+HasTag
+Head
+Headers
+Headers and Content length don't match
+Health
+Health_XML
+Hello
+hello
+Hello, argthurh MITCHELL
+Hello...DEXTEr. morgan..
+Helloush Ð¿ÑÐ¸Ð²ÐµÑ
+hi
+Hi
+Hooked function threw an error when it shouldn't
+hookfunction
+Hookfunction did not error when only one parameter was passed
+hookfunction is needed in order to test
+hookfunction-10: detection & ENV leak test
+hookfunction-1: L -> L[1]
+hookfunction-1: L -> L[2]
+hookfunction-2: C -> L
+hookfunction-3: L -> C
+hookfunction-4: C -> C
+hookfunction-5: L -> C -> L
+hookfunction-6: L -> NC
+hookfunction-7: NC -> L
+hookfunction-8: NC -> C
+hookfunction-9: C -> NC
+hookmetamethod
+hookmetamethod is needed in order to test
+Horizontal
+HorizontalAlignment
+http://setup.roblox.com/version-d0e8cfcd943d4ae2-API-Dump.json
+HttpGet
+https://
+https://api.ipify.org/?format=json
+https://api.rubis.app/v2/scrap/eupJy408XkzQdshz/raw
+https://gitlab.com/sens3/nebunu/-/raw/main/dep2.lua?ref_type=heads
+https://gitlab.com/sens3/nebunu/-/raw/main/HummingBird8's_sUNC_yes_i_moved_to_gitlab_because_my_github_acc_got_brickedd/bytecode?ref_type=heads
+https://gitlab.com/sens3/nebunu/-/raw/main/HummingBird8's_sUNC_yes_i_moved_to_gitlab_because_my_github_acc_got_brickedd/encodedBytecode?ref_type=heads
+https://gitlab.com/sens3/nebunu/-/raw/main/HummingBird8's_sUNC_yes_i_moved_to_gitlab_because_my_github_acc_got_brickedd/hookfankshan.lua?ref_type=heads
+https://gitlab.com/sens3/nebunu/-/raw/main/HummingBird8's_sUNC_yes_i_moved_to_gitlab_because_my_github_acc_got_brickedd/test:p.lua?ref_type=heads
+https://gitlab.com/sens3/nebunu/-/raw/main/HummingBird8's_sUNC_yes_i_moved_to_gitlab_because_my_github_acc_got_brickedd/testloadstring?ref_type=heads
+https://gitlab.com/sens3/nebunu/-/raw/main/HummingBird8's_sUNC_yes_i_moved_to_gitlab_because_my_github_acc_got_brickedd/tralalerotralala.lua?ref_type=heads
+https://gitlab.com/sens3/nebunu/-/raw/main/HummingBird8's_sUNC_yes_i_moved_to_gitlab_because_my_github_acc_got_brickedd/uhhhhh?ref_type=heads
+https://script.sunc.su/sunc.lua/
+HttpService
+huge
+Humanoid
+HumanoidRootPart
+I AM SUNC_0
+I can easily bypassed roblox but it will cost me 500k$ i can using null coding and exe exploits i cant say most of it because u know its illegal This ensures the XOR will never produce Ox20, causing it to always jump and bypass the Hyperion :: Yara :: ScanStats call completely. This is probably the cleanest way to disable their scanning without breaking other parts of the code.
+I like my UNC not faked, bruh ð¦
+identifyexecutor
+idk
+Idk
+Idled
+IgnoreExecutor
+iguesssoooo
+IImuGdtKneFLHeBAFQ==
+IJ7/3/QpvKMa+A==
+IJ7/3/QpvKMa+C7UH9eJ0A==
+IJDh1vc1tA==
+ilovelosingcontrol
+imaeemuhttaginmyphase
+ImageLabel
+imagineifwewerecuteandhadcutelittleskirts
+Impossible field value for 'is_vararg' 
+In the BIG 25 ð¥ð
+Inactive protos should not be callable
+Inactive protos should not be callable[1]
+Inactive protos should not be callable[2]
+info
+init_block
+init_context
+InputBegan
+InputEnded
+insert
+Inside
+inside?o,,fmydr?eamss
+Instance
+Invalid argument: must be a positive integer
+Invalid arguments: must be integers with A <= B
+Invalid count. `getinstances` should not be `game:GetDescendants()`
+Invalid drawing type
+Invalid metatable-to-metatable reference
+Invalid references should not equal[1]
+Invalid references should not equal[2]
+Invalid return. Should not return its own metatable
+Invalid script's proto count
+Invalid table-to-metatable reference[2]
+Invalid table-to-metatable references[1]
+Invalid thread fetched from the connection[1]
+Invalid thread fetched from the connection[2]
+Invalid upvalue count
+invalidate
+Invoke
+InvokeServer
+Io3w29k2vK0Z+g==
+ipairs
+IpP2wcQDsqEB+hPDHg==
+is this my life?...
+is_vararg
+IsA
+iscached
+iscclosure
+IsDescendantOf
+isexecutorclosure
+isfile
+isfolder
+isfrozen
+islclosure
+isntthatswe,et?
+isPlayerScript
+isreadonly
+isrenderobj
+isscriptable
+IsStudio
+itsjustgettingstarted
+itsstarting
+IWantToChill
+IWantToChill 
+IWantToChillW
+IYrnx98ukKYR+xHSLt2Cylvm0A==
+IYrnx98unqAb6xjZGQ==
+IYrnx98urg==
+JbU+AT6PJg==
+JMx128/J1g0Y
+JSON body contains incorrect values ???
+JSONDecode
+just make it warn("diofdjaosijdsfajia"). Credits: ETq
+Jw==
+JZD8x9Uy
+key
+Keys
+keystream32
+KeyValuePairs
+Kill
+King Von did not die for this ð­ð¤ð
+kingvon
+kingvonisud
+l
+lacking capability
+LayoutOrder
+lea.mp3
+Left
+Left Arm
+Left Leg
+leftrightohhH
+lefty
+len
+length
+Let em in
+Let it go bro, please... ððð
+Let it go bro...ðð[2]
+lI
+Lighting
+lIllIlIlIllIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIlIllIlIlIlIlIlIlIlIlIlIlIlI
+Line
+Line 1
+
+Line 2
+
+link_textbox
+listfiles
+listmeow
+listmeow/file1.txt
+listmeow/file2.txt
+lllllllllllllllll = 
+loadfile
+loadstring
+Loadstring did not return anything for a compiler error
+loadstring test
+loadstring[basic]
+loadstring[complicated]
+loadstring[simple]
+local a = ...; return a * 2
+LocalPlayer
+LocalScript
+locked in
+LOEALOEA
+LogService
+lol
+lol/lolz.txt
+LOOKIN_LIKE_SONIC
+lower
+LPLPLPLPL
+lqfowivvpb
+lrotate
+lshift
+lspmpn5
+Lua
+LuaConnection
+LUAU bytecode should not be loadable!
+lz4compress
+lz4decompress
+Magnitude
+MainView
+makefolder
+Massless
+match
+math
+mau
+MaxTextSize
+meow
+meow/meow1.txt
+meow/meow2
+meow/meow3.txt
+meow/meow4.txt
+meow1.txt
+meow1ok
+meow2ok
+meowappend.txt
+MessageOut
+Metatable
+Method
+MinTextSize
+Missing _G key
+missing argument #1 to 'resume'
+Missing global environment, high chance of bugs
+Missing one of these aliases: getgenv().base64_decode 
+ This will not count as a fail, but it's just 'warning' 
+
+Missing one of these aliases: getgenv().base64_encode 
+ This will not count as a fail, but it's just 'warning' 
+
+Missing one or more FileSystem functions. FileSystem tests were skipped
+ModuleScripka
+ModuleScript
+MothMan001951!/
+MouseButton1
+MouseButton1Click
+MouseClick
+MouseDrag
+MouseEnter
+MouseHoverEnter
+MouseHoverLeave
+MouseLeave
+MouseWheelForward
+moveitupdown
+mrqfBwEj
+muhe2heh/..??9he251heh
+n
+name
+Name
+Network
+neutral
+new
+newcclosure
+newcclosure is needed in order to test
+newproxy
+next
+Next: clonefunction
+Next: cloneref
+Next: compareinstances
+Next: crypt
+Next: debug.getconstant
+Next: debug.getproto[o]
+Next: decompile
+Next: Drawing
+Next: filesys
+Next: filtergc
+Next: fireclickdetector
+Next: fireproximityprompt
+Next: firesignal
+Next: firetouchinterest
+Next: genv
+Next: getcallbackvalue
+Next: getconnections
+Next: getconstants
+Next: getcustomasset
+Next: getfunctionhash
+Next: getgc
+Next: gethiddenproperty
+Next: gethui
+Next: getinfo
+Next: getinstances
+Next: getloadedmodules
+Next: getnilinstances
+Next: getprotos
+Next: getrenv
+Next: getrunningscripts
+Next: getscriptbytecode
+Next: getscriptclosure
+Next: getscriptfromthread
+Next: getscripthash
+Next: getscripts
+Next: getsenv
+Next: getstack
+Next: getupvalue
+Next: getupvalues
+Next: hookfunction
+Next: iscclosure
+Next: isexecutorclosure
+Next: islclosure
+Next: loadstring
+Next: lz4compress
+Next: newcclosure
+Next: replicatesignal
+Next: request
+Next: restorefunction
+Next: setconstant
+Next: setrawmetatable
+Next: setreadonly
+Next: setscriptable
+Next: setstack
+Next: setthreadidentity
+Next: setupvalue
+Next: websocket
+nice
+Nigerian prince 0/0
+nII6T2g+
+nil
+nMMYYk96tIvWXw==
+nnn
+No 'crypt' table detected. Crypt tests were skipped.
+No error handling on non-existent file
+NO NO
+nonce
+nooo
+NormalId
+Not found
+Not yet
+now
+NR0ZS8GO
+NR0ZS8GOo5W09moVZvMA0Yg=
+Nrbf2sM0ka4M8AjD
+null
+number
+NumberRange
+NumberSequence
+NumberSequenceKeypoint
+numparams
+nups
+OeISTr9aykf4
+of 
+Offset
+ok
+ok so then wtf did I get? idk probably
+ok u gotta change your script then im gonna make different serializer and deserializer
+ok.txt
+OKoek
+okÐµm
+Once
+OnClientInvoke
+OnClose
+onFreeFall
+OnInvoke
+Only string or number keys supported
+OnMessage
+onRunning
+OnTeleport
+OnTeleportInternal
+ookok
+os
+Out
+out 
+Output couldn't match expected Drawing's property
+Output couldn't match new Drawing's color property
+Output couldn't match new Drawing's property
+Output wasn't returned as a string
+p4r3z1t11laconcertlamatapescaraaa
+pack
+pack4
+Padding
+pairs
+Parazitii
+Parent
+Part
+passed
+Passed the simple loadstring test. Short obfuscated scripts can be executed.
+Past [5]
+Past b64
+Past bytecode
+Past cache
+past clonefunction
+Past cloneref
+Past compareinstances
+Past connections
+Past crypt
+Past customasset
+Past decompile
+Past drawing
+Past filesys
+Past filtergc
+Past fireclickdetector
+Past fires
+past firesignal
+Past firetouchinterest
+past function nil-check
+Past genv
+Past getcallbackvalue
+Past getconstant
+Past getconstants
+Past getfunctionhash
+Past gethui
+Past getinfo
+Past getinstances
+Past getlmodules
+past getproto[o]
+Past getprotos
+Past getrenv
+past getrunningscripts
+Past getscriptclosure
+Past getscripthash
+past getscripts
+Past getsenv
+Past getstack
+Past getupvalue
+Past getupvalues
+Past hookfunction
+Past identities
+Past instances
+Past iscclosure
+Past isexecutorclosure
+Past islclosure
+Past loadstring[basic]
+Past loadstring[simple]
+Past lz4
+Past newcclosure
+Past properties
+Past replicatesigmal
+past request
+Past restorefunction
+Past scriptables
+Past setconstant
+Past setreadonly
+past setrmetatable
+Past setstack[2]
+Past setupvalue
+Past sockets
+PathWaypoint
+pcall
+peepbooop
+PhysicalProperties
+placeholder
+plAwk0s9JE7Wg4ahek7sl3aCYnl4OEhYXgHpGR4pQ/XarDanfLAde8f3Fh88
+Play
+playAnimation
+Player
+PlayerGui
+PlayerModule
+Players
+PlayerScripts
+PlayerScriptsLoader
+PluginDrag
+PluginManager
+pmo
+po8M/GNCwg9xvQ==
+poooop
+poop
+Poor/no yielding implementation[1]
+Poor/no yielding implementation[2]
+Poor/no yielding implementation[3]
+Poor/no yielding implementation[4]
+Poor/no yielding implementation[5]
+Poor/no yielding implementation[6]
+position
+Position
+potisafugipotisafugicaoincurcioincurci
+PreSimulation
+PriimuuuulTEIUBESCSprimultausarut
+print
+print('real')
+printcheckpoints
+printidentity
+printtesttimetaken
+processing results
+ProximityPrompt
+prrrrpapa
+Pull off in a Tonka, yeah, this a big body
+r
+r.sunc.su/
+Radius
+Random
+random expects 0, 1, or 2 arguments
+rawequal
+rawget
+rawlen
+rawset
+Ray
+RaycastParams
+RbxCharacterSounds
+RBXScriptSignal
+read
+readfile
+readstring
+readu32
+readu8
+real
+REAL _G moment ðð¹[1]
+REAL _G moment ðð¹[2]
+REAL connections ð¤¯ð²[1]
+REAL connections ð¤¯ð²[2]
+REAL lua clonefunction ð¥³ð¥³
+REAL newcclosure WHAT!!! REAL ð²ð²ð²
+real2
+Rect
+Reference should have the same type as the original
+ReginaBalului
+Region3
+Region3int16
+rela
+Remember when we were all at schoo'
+remove
+RemoveTag
+rep
+replace
+ReplicatedFirst
+ReplicatedFirst.Hacker
+ReplicatedStorage
+replicatesigmal
+replicatesignal
+request
+Request headers is nil
+Request headers returned a 
+Request response is nil
+Request returned a 
+Request timed out (6 seconds). loadstring may not work on large data.
+Request timed out (8 seconds). loadstring may not work on very large data.
+Request was not successful, status message: 
+require
+require is needed in order to test
+ResetOnSpawn
+Respect
+respect
+restorefunction
+restorefunction-1: L -> C Restore
+restorefunction-2: C -> C and L -> C Restore
+restorefunction-3: Restore NC[1] -> NC[2] and NC[2] -> NC[1] x4
+result_background
+result_frame
+resume
+Retrieved an invalid error message when trying to call a hooked function[1]
+Retrieved an invalid error message when trying to call a hooked function[2]
+Retrieved an invalid object: 
+Retrieved the wrong thread from a :Wait connection
+return 
+return ... + 1
+return 123
+Returned a function for a non-LuaConnection[1]
+Returned a table while 'return_one' was set to true
+Returned a thread for a non-LuaConnection[1]
+Returned an empty table when provided no options
+Returned an error trying to load a dependancy, containing one of sUNC's tests: 
+Returned an unloaded module
+Returned different results for the same script
+Returned false for a cached instance
+Returned false for a ForeignState
+Returned false for a LuaConnection on :Once
+Returned false for a LuaConnection[2]
+Returned false for a scriptable property
+Returned false for a valid LuaConnection
+Returned false for an enabled connection on 'Enabled' field
+Returned false for an existing file
+Returned false for an lclosure
+Returned false for LuaConnection on a :Wait connection
+Returned table should be static
+Returned true for 'Enabled' after triggering a :Wait connection
+Returned true for a disabled connection on 'Enabled' field
+Returned true for a non-cached instance
+Returned true for a non-exec closure
+Returned true for a non-exec closure.
+Returned true for a non-existing file
+Returned true for a non-existing folder
+Returned true for a non-ForeignState on :Once
+Returned true for a non-LuaConnection[1]
+Returned true for a non-scriptable property
+Returned true for ForeignState on a :Wait connection
+Returned true for no closure
+reverse
+Rg==
+Right
+Right Leg
+RightMouseClick
+RIP
+RobotoMono
+Rotation
+RotationCurveKey
+rotl32_temp
+rshift
+rtrkvrbqsx
+RunContext
+running
+RunService
+s
+s8N6cA==
+Same functions shouldn't have different hashes
+Same instructions should have the same hash
+Scale
+ScreenGui
+script
+Script
+Script global shouldn't differ
+scriptsomemodulesrn
+Scurry
+seeba
+seebau
+select
+Send
+send
+serialize
+serialize_table
+ServerStatsItem
+service
+set_clipboard
+setclipboard
+setconstant
+setfenv
+sethiddenproperty
+setmetatable
+SetPredictionMode
+setrawmetatable
+setreadonly
+setreadonly is needed in order to test
+setrenderproperty
+setrenderproperty is needed to perform this test correctly
+setscriptable
+setstack
+setthreadidentity
+setthreadidentity is needed in order to test
+settings
+setupvalue
+shared
+SharedString result length did not match with expected.
+SharedString result was empty[2]
+SharedTable
+short_src
+Should also set capabilities according to the identity[1]
+Should also set capabilities according to the identity[2]
+Should error upon entering an invalid index[1]
+Should error upon entering an invalid index[2]
+Should error upon entering an invalid index[3]
+Should error upon entering an invalid level[1]
+Should error upon entering an invalid level[2]
+Should error upon entering an invalid upvalue index[1]
+Should error upon entering an invalid upvalue index[2]
+Should error upon entering invalid index[1]
+Should error upon entering invalid index[2]
+Should error upon entering invalid level[1]
+Should error upon entering invalid level[2]
+Should error upon passing an invalid instance
+Should error upon passing an invalid level[1]
+Should error upon passing an invalid level[2]
+Should error upon passing an invalid level[3]
+Should hash the compressed and encrypted bytecode
+Should only replace the instance cache, not the reference
+Should return a hex representation of a SHA384 or blake2b hash
+Shouldn't be able to access siz
+Shouldn't create different references each time it's called
+Shouldn't push values across different VMs
+Shouldn't return core scripts by default
+Shouldn't return duplicates
+Shouldn't return scripts initialized in an actor state
+Sigma moment
+sillypeely
+Sine
+siz
+Size
+size_xml
+Sky
+Skys
+somestufffirst
+somestufflast
+Somethingiok
+sort
+SortOrder
+Sound
+SoundId
+source
+Source
+soyoucans,leep,babyiknow
+spawn
+Spawn
+ss rate
+SSBjYW4gZWFzaWx5IGJ5cGFzc2VkIHJvYmxveCBidXQgaXQgd2lsbCBjb3N0IG1lIDUwMGskIGkgY2FuIHVzaW5nIG51bGwgY29kaW5nIGFuZCBleGUgZXhwbG9pdHMgaSBjYW50IHNheSBtb3N0IG9mIGl0IGJlY2F1c2UgdSBrbm93IGl0cyBpbGxlZ2FsIFRoaXMgZW5zdXJlcyB0aGUgWE9SIHdpbGwgbmV2ZXIgcHJvZHVjZSBPeDIwLCBjYXVzaW5nIGl0IHRvIGFsd2F5cyBqdW1wIGFuZCBieXBhc3MgdGhlIEh5cGVyaW9uIDo6IFlhcmEgOjogU2NhblN0YXRzIGNhbGwgY29tcGxldGVseS4gVGhpcyBpcyBwcm9iYWJseSB0aGUgY2xlYW5lc3Qgd2F5IHRvIGRpc2FibGUgdGhlaXIgc2Nhbm5pbmcgd2l0aG91dCBicmVha2luZyBvdGhlciBwYXJ0cyBvZiB0aGUgY29kZS4=
+Start
+start
+Start
+
+Start
+Line 1
+Line 2
+
+start_time
+StarterPlayer
+StarterPlayerScripts
+Starting basic loadstring testing
+Starting complicated loadstring URL testing...
+Starting simple loadstring URL testing...
+STARTING sUNC test. Join our Discord server if you want :
+state
+stats
+Stats
+StatusMessage
+Stop
+string
+sub
+Success
+success
+success rate
+sUgLN91H92e90g==
+sUNC threw an error. Please rejoin the place and execute again, Error:
+sUNC, VERSION 2.1.5 
+sUNC_melon_result
+sUNCDebug
+sunchookfuncthing
+suncinit
+Superreal.txt
+SurfaceGui
+Swerve, bend that corner woahhh
+syrupsyrupsyrup
+szs
+t
+t65
+table
+Tags
+task
+Teleport
+TeleportService
+terminate
+test
+test2
+TestFuncs
+TestService
+Text
+text_container
+TextBox
+TextButton
+TextColor3
+TextEditable
+TextLabel
+TextScaled
+TextTransparency
+TextWrapped
+TextXAlignment
+tF6VDmbhJHhcCQU5KQw=
+The callback received does not match the actual callback
+The callback value didn't behave as expected
+The closure should not be defined at line -1
+The environment of getgenv should be the same as current
+The function environment of `getgenv` should not be the result of it[1]
+The function environment of `getgenv` should not be the result of it[2]
+The function failed to be tested
+The Function field was not a function on a :Wait connection
+The object exists after clearing the cache
+The reference should be different compared to the original
+The reference should not be the same under rawequal
+The X offset doesn't match with Radius
+The Y offset doesn't match with Radius
+Thickness
+This is so FIRE ð¥ð¥ð¥
+Those who glow
+Those who return true: ð
+Those who snow
+thread
+Thread
+thread:
+thunderclient?
+tick
+time
+Timed out waiting for a connection callback
+Timed out while trying to connect to the websocket
+Timed out while trying to trigger ArcHandles.MouseDrag signal
+Timed out while trying to trigger Frame.MouseWheelForward signal with specific arguments.
+Timed out while trying to trigger ProximityPrompt.TriggerEndedActionReplicated signal
+Timed out while trying to trigger TextButton.MouseButton1Click
+Timed out while waiting for a response from the server
+Timed out while waiting for numelon result.
+TimePosition
+To1gJcwqqySd
+to_clipboard
+toclipboard
+tonumber
+tors: Lovre, vvultt, GRH,
+tostring
+Total tests failed: 
+Touched
+tragicuDintzyypanainultimSekUnda
+Transparency
+Triggered the connection after disabling
+TriggerEnded
+TriggerEndedActionReplicated
+TriggerEndedP
+true
+truncateToOneDecimal
+tsatsatsatsa
+TweenInfo
+TweenService
+type
+typeof
+uau
+UDim
+UDim2
+Ug==
+uh what:
+UIAspectRatioConstraint
+UICorner
+UIGradient
+UIListLayout
+uint32
+uint32_add
+UIStroke
+UITextSizeConstraint
+ultraBanan0s4uruz?
+unbob
+undetected
+Undevrei
+Unexpected character at position 
+Unexpected content after JSON at position 
+Unexpected error: 
+Unknown identifier
+unpack
+Unsupported type to write: 
+Unsupported value type: 
+Unterminated string
+upper
+Upvalues
+Url
+user-agent
+useragent
+UserAgent
+userdata
+UserInputService
+UserInputType
+UserSettings
+utf8
+uWJxY9uoZW0fW+I=
+value
+Value
+Value/type mismatch
+Values
+Variadic arguments should influence the hash
+vector
+Vector2
+Vector2int16
+Vector3
+Vector3int16
+version
+Version
+VerticalAlignment
+videos
+View Result:
+view_result_textlabel
+ViewportSize
+Visible
+Volume
+vrsjkfctn
+vxxdpv/eQWr3
+vywxNXBMuYYlKWj/hoGWTCdWOQVa5Yt7
+Wait
+wait
+WaitForChild
+waiting for false
+Waiting for melon
+warn
+Was able to find the cached instance in registry
+Was able to get a callback from an invalid instance
+Was able to index a hidden property after setting scriptable
+Was able to retrieve a table with a non-true argument passed
+Was able to retrieve an invalid string from the bytecode[1]
+Was able to retrieve an invalid string from the bytecode[2]
+Was able to retrieve the environment of a non-running script
+Was able to trigger the :Wait connection while being disabled
+Was not able to set a stack value in a foreign thread
+Was unable to find a running 'Script' with 'Client' RunContext
+Was unable to find a running script parented to nil
+Was unable to find a running script with its script global set to nil
+Wasn't able to determine the correct firing part
+Wasn't able to find the cached instance in registry
+Wasn't able to find the Drawing element
+Wasn't able to index a hidden property after setting scriptable
+Wasn't able to load the needed dependency. This is either an issue with loadstring not placing the global variables in the environment, or: 
+Wasn't able to trigger the :Wait connection while being enabled, after disabling
+wasthat,m?rlly?unexttome?
+websocket
+WebSocket
+WebSocket is nil
+WebSocket.connect
+wg==
+what
+White Kemono Dragon Horns
+WHOAM?ISUPP?OSEDTOPLEASE?
+whoamis?posedtoplease?
+whydidyoudot,.histoTHEM?!
+whytheystoptostare
+workspace
+Workspace
+WorldToViewportPoint
+would_you_be_a_bop_if_you_were_a_girl?
+wow
+Wow?
+wrap
+write
+writef64
+writefile
+writei16
+writei32
+writestring
+writeu32
+writeu8
+Wrong _G count
+Wrong argument passed
+ws://
+wss://
+X
+x6+Nf84i6kjAaXs9
+xor
+xor32_temp
+xpcall
+XxyqBVyhGdykNg==
+Y
+Y/+Ts7BA
+Y/+Ts7BA3c91n323
+Y/+Ts7BA3c91n323bbLsvg==
+Y/+Ts7BA3c91n323bbLsvj6IpA==
+Y/+Ts7BA3c91n323bQ==
+Y/+Ts7BA3c91nw==
+Y/+Ts7BA3Q==
+y0u w4nt t0 3xpr3ss s0m3thÂ¡ng sÂ¡mÂ¡l4r Â¡n HÂ¡ndÂ¡
+yay
+yes? Interesting...
+yF9CD19jyvNLSh+MqO/jIUI6Vmt0huQW
+yield
+yirxtitgnf
+YOyoyooy
+ypcall
+Yr4QuqSwlGJg
+Yw==
+Z3hpJ6jtwuHRkjlhCYFhtu0=
+zG991J6qJErf
+zhAYF77bER92NYU=
+ZIndex
+ZIndexBehavior
+Zn5sObP3
+zop.txt
+ZtpQb1vsUg==
+{
+{
+
+}
+à¤¨ð¿à¤®à¤¸à¥à¤¤à¥ à¤¤à¥©à¤°à¥ à¤¦Â¡hððð
+áoâ±£ðl0#g@9ginð²ð$inð©|cðmPð¤ooð§ ây
+â
+âáð°ð´d@ddleðfâµiâbbÂ®â ð¡flâ©a$ð§¡bber
+âï¸Â§nÄ±Ã§KðeðÄÎ´ð¡oà¹áªð#fð¤ªáuï¿¥âfðFðârâ¦uðtâ â¬r
+âï¸ð£ðð²ð«ððÎµÏá¸lðBÉð¢râ¤ï¸wðð¸ÛÎ¿Î²Î²lÎ~gà¯oð«ble
+ããããªããããªãé­æ³ä½¿ã
+ã´ãð¹blð®âg1ðÈ³â§¸gouðkâ°fÄ¼Â¡2bâ´ðâ§ââ¬iÑÑð Î²et
+ä½ æ¯ä¸ªç¬¨è
+Éð1ðxâ°â´â¯icâqâuanâð£dâaÂ®yqueâ¨â§²agmðire
+Êu1l0@Î²aâooâ¬hoos+â¤Ãâ§nâ¢yêsheðan~Ä±â§gâns
+ê§ ááá¢ê§ 
+ê§ê§ê§ê§ê§ê§ê§ê§ê§ê§ê§ê§ê§ê§ê§
+ì¼rfð¥ufâºleâflum@xâ3d$Î»aboÃ¶zâ´led
+ÐÐºÐµÐ¹ ÑÐ¾ÑÐ¾ÑÐ¾
+ð Passed the test with 
+ð This test was made by senS
+Õ©ê§ê
+ÿ	
+Finishedû
+ÿ
+Sta
+rtedû
+
+=== upvalue names (0 unique) ===
