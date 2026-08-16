@@ -1,15 +1,14 @@
-77fuscator VM disassembly — recovered opcode names (VIndex in parens)
-==============================================================================
-POLY       = polymorphic wrapper: adjusts an instruction's operands at runtime
-PUSH       = push a value onto the VM call stack (call argument setup)
-CALL       = pop args and invoke (includes method/self-call variants)
+---------------
+POLY= polymorphic wrapper: adjusts an instruction's operands at runtime
+PUSH = push a value onto the VM call stack (call argument setup)
+CALL = pop args and invoke (includes method/self-call variants)
 TEST/GETCOND = manipulate the conditional flag used by JUMPIF
 JUMP/JUMPIF/JUMPTARGET = branch / conditional branch / target compute
 FORPREP/FORLOOP = numeric-for setup / iteration
 CLOSURE/SETUPVAL/GETUPVAL/CLOSE = function & upvalue handling
 GETSTK/GETINSTR/GETCONSTTBL = load VM internals into a register
 Operands A/B/C/E are still pre-mutation (POLY wrappers offset them at runtime).
-==============================================================================
+---------------
 
 ===== proto 0 (params=0, vararg=True, stack=0, flag2=True) =====
 upvalues: (none)
@@ -46333,5 +46332,4 @@ protos (22):
       [  15] NOP (#51) A=90 B=2 C=29 E=0 (has prev-link)
       [  16] NOP (#20) A=66 B=46 C=16 E=0 (has prev-link)
     protos (0):
-
 
