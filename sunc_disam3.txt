@@ -1,11 +1,3 @@
-==============================================================================
-R<n> register   K<n>=<val> constant (1-based)   P<n> proto (1-based)
-J#<n> (+d) jump target (1-based, relative offset)   Up<n> upvalue
-POLY = polymorphic wrapper (runtime operand offset; needs VM simulator)
-PUSH/CALL = value-stack call setup (raw operands until simulator lands)
-EQ/LT/LE = flattened comparison+jump pairs (A/B shown as raw)
-==============================================================================
-
 ===== proto 0 (params=0, vararg=True, stack=0, flag2=True) =====
 upvalues: (none)
 constants (40):
